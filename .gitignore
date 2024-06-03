@@ -1,0 +1,4 @@
+/node_modules
+/.env
+/snowflake.log
+/log.txt

@@ -1,0 +1,7 @@
+[
+    {
+        "tableName": "H_FB_EVENT_FORM",
+        "pgQuery": "SELECT * FROM PUBLIC.H_FB_EVENT_FORM ORDER BY form_id, event_form_id desc LIMIT 1000;",
+        "sfQuery": "SELECT * FROM DB_GU_SOURCE.PUBLIC.H_FB_EVENT_FORM ORDER BY form_id, event_form_id desc LIMIT 1000;"
+    }
+]
