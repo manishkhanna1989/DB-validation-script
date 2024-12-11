@@ -1,0 +1,6 @@
+[
+    {
+      "pgQuery": "SELECT DISTINCT t.table_name, c.column_name FROM information_schema.columns c JOIN information_schema.tables t  ON c.table_schema = t.table_schema  AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo','dba') AND t.table_type = 'BASE TABLE' AND c.table_name not like '%_202%' ORDER BY table_name ASC;",
+      "sqlQuery": "SELECT DISTINCT LOWER(c.table_name) as table_name, LOWER(c.column_name) as column_name FROM information_schema.columns c  JOIN information_schema.tables t  ON c.table_schema = t.table_schema AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo','dba') AND t.table_type = 'BASE TABLE' AND c.table_name not like '%_202%' ORDER BY table_name ASC;"
+    }
+]

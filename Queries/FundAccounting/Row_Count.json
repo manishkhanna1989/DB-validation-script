@@ -1,0 +1,6 @@
+[
+  {
+    "pgQuery": "SELECT DISTINCT c.table_name, c.table_schema FROM information_schema.columns c JOIN information_schema.tables t ON c.table_schema = t.table_schema AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo') AND t.table_type = 'BASE TABLE' AND c.table_name NOT LIKE '%extractspnl%' AND c.table_name NOT LIKE '%strategypnl_%' AND c.table_name NOT LIKE '%tradedetails%' AND c.table_name NOT LIKE '%tradepnl%' ORDER BY c.table_name ASC;",
+    "sqlQuery": "SELECT DISTINCT LOWER(c.table_name) AS table_name, LOWER(c.table_schema) AS table_schema FROM information_schema.columns c JOIN information_schema.tables t ON c.table_schema = t.table_schema AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo') AND t.table_type = 'BASE TABLE' AND c.table_name NOT LIKE '%extractspnl%' AND c.table_name NOT LIKE '%strategypnl_%' AND c.table_name NOT LIKE '%tradedetails%' AND c.table_name NOT LIKE '%tradepnl%' ORDER BY table_name ASC;"
+  }
+]

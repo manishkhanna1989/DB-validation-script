@@ -1,0 +1,70 @@
+2024-10-17 14:48:23 - All constraints for __efmigrationshistory matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - All constraints for approvalrules matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - [
+  {
+    "TableName": "attachments",
+    "ColumnName": "emailmessageid",
+    "PG_Constraints": "",
+    "SQL_Constraints": "FOREIGN KEY"
+  }
+]
+2024-10-17 14:48:23 - All constraints for attachments matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - All constraints for emaildepartment matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - All constraints for emailgroup matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - All constraints for emailmessage matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - [
+  {
+    "TableName": "emailmessageemailgroup",
+    "ColumnName": "emailgroupid",
+    "PG_Constraints": "PRIMARY KEY",
+    "SQL_Constraints": "FOREIGN KEY, PRIMARY KEY"
+  }
+]
+2024-10-17 14:48:23 - [
+  {
+    "TableName": "emailmessageemailgroup",
+    "ColumnName": "emailmessageid",
+    "PG_Constraints": "PRIMARY KEY",
+    "SQL_Constraints": "FOREIGN KEY, PRIMARY KEY"
+  }
+]
+2024-10-17 14:48:23 - All constraints for externalparty matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - All constraints for ruleviolation matches between PostgreSQL and Sql.
+2024-10-17 14:48:23 - CSV file created at Result_csv/EmailScanner_Constraints_Validation.csv
+2024-10-17 14:48:43 - Table names count match between PostgreSQL and MSSQL.
+2024-10-17 14:48:43 - All table names in PostgreSQL are present in MSSQL.
+2024-10-17 14:48:43 - All table names in MSSQL are present in PostgreSQL.
+2024-10-17 14:48:43 - All data types match for table __efmigrationshistory.
+2024-10-17 14:48:43 - All data types match for table approvalrules.
+2024-10-17 14:48:43 - All data types match for table attachments.
+2024-10-17 14:48:43 - All data types match for table emaildepartment.
+2024-10-17 14:48:43 - All data types match for table emailgroup.
+2024-10-17 14:48:43 - All data types match for table emailmessage.
+2024-10-17 14:48:43 - All data types match for table emailmessageemailgroup.
+2024-10-17 14:48:43 - All data types match for table externalparty.
+2024-10-17 14:48:43 - All data types match for table ruleviolation.
+2024-10-17 14:48:43 - CSV file created at Result_csv/EmailScanner_DataType_Validation.csv
+2024-10-18 16:17:33 - Table names count match between PostgreSQL and Sql.
+2024-10-18 16:17:33 - All tables are present in both PostgreSQL and SQL.
+2024-10-18 16:17:34 - Counts do not match for table __efmigrationshistory: Sql Count: 19, PostgreSQL Count: 1
+2024-10-18 16:17:34 - Counts match for table approvalrules: Sql Count: 0, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table attachments: Sql Count: 221151, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table emaildepartment: Sql Count: 4, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table emailgroup: Sql Count: 1243, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table emailmessage: Sql Count: 275398, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts match for table emailmessageemailgroup: Sql Count: 0, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table externalparty: Sql Count: 4, PostgreSQL Count: 0
+2024-10-18 16:17:34 - Counts do not match for table ruleviolation: Sql Count: 10826, PostgreSQL Count: 0
+2024-10-21 14:37:51 - Table names count match between PostgreSQL and Sql.
+2024-10-21 14:37:51 - All tables are present in both PostgreSQL and SQL.
+2024-10-21 14:37:52 - Counts do not match for table __efmigrationshistory: Sql Count: 19, PostgreSQL Count: 20
+2024-10-21 14:37:52 - Counts match for table approvalrules: Sql Count: 0, PostgreSQL Count: 0
+2024-10-21 14:37:52 - Counts do not match for table attachments: Sql Count: 222374, PostgreSQL Count: 223102
+2024-10-21 14:37:52 - Counts match for table emaildepartment: Sql Count: 4, PostgreSQL Count: 4
+2024-10-21 14:37:52 - Counts do not match for table emailgroup: Sql Count: 1243, PostgreSQL Count: 1247
+2024-10-21 14:37:52 - Counts do not match for table emailmessage: Sql Count: 276717, PostgreSQL Count: 277570
+2024-10-21 14:37:52 - Counts match for table emailmessageemailgroup: Sql Count: 0, PostgreSQL Count: 0
+2024-10-21 14:37:52 - Counts match for table externalparty: Sql Count: 4, PostgreSQL Count: 4
+2024-10-21 14:37:52 - Counts do not match for table ruleviolation: Sql Count: 10873, PostgreSQL Count: 10893
+2024-10-21 14:41:23 - Comparing data for table emailgroup...
+2024-10-21 14:42:06 - Row Count for table emailgroup does not match. SQL Count:1243 VS PG Count:1247

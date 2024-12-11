@@ -8,14 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "clone the repository and execute the below command\r - Open the terminal in project directory and execute below command\r    ```shell\r    npm install\r    ```",
   "dependencies": {
-    "chai": "^4.3.10",
+    "chai": "^5.1.1",
+    "csv-writer": "^1.6.0",
     "dotenv": "^16.4.5",
     "knex": "^3.1.0",
-    "moment": "^2.29.4",
-    "pg": "^8.11.3",
-    "pg-promise": "^11.5.4",
-    "snowflake-sdk": "^1.9.2"
+    "moment": "^2.30.1",
+    "mssql": "^11.0.1",
+    "pg": "^8.12.0",
+    "pg-promise": "^11.9.1",
+    "prebuild-install": "^7.1.2"
   }
 }

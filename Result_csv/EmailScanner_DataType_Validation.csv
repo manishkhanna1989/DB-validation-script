@@ -1,0 +1,95 @@
+TableName,ColumnName,SQL Data Type,PG Data Type,Status
+__efmigrationshistory,migrationid,nvarchar,character varying,Pass
+__efmigrationshistory,productversion,nvarchar,character varying,Pass
+approvalrules,allowattachments,bit,boolean,Pass
+approvalrules,approvalstatus,nvarchar,text,Pass
+approvalrules,approvedat,datetime2,timestamp without time zone,Pass
+approvalrules,approvedby,nvarchar,text,Pass
+approvalrules,createdat,datetime2,timestamp without time zone,Pass
+approvalrules,createdby,nvarchar,text,Pass
+approvalrules,department,nvarchar,text,Pass
+approvalrules,emailaddresses,nvarchar,text,Pass
+approvalrules,emailgroup,nvarchar,text,Pass
+approvalrules,id,int,integer,Pass
+approvalrules,initialid,int,integer,Pass
+approvalrules,messageaction,nvarchar,text,Pass
+approvalrules,originatinguser,nvarchar,text,Pass
+approvalrules,previousid,int,integer,Pass
+approvalrules,source,nvarchar,text,Pass
+approvalrules,subject,nvarchar,text,Pass
+approvalrules,updatedat,datetime2,timestamp without time zone,Pass
+approvalrules,updatedby,nvarchar,text,Pass
+attachments,emailmessageid,uniqueidentifier,uuid,Pass
+attachments,filename,nvarchar,text,Pass
+attachments,id,uniqueidentifier,uuid,Pass
+attachments,size,bigint,bigint,Pass
+emaildepartment,department,nvarchar,text,Pass
+emaildepartment,emailaddress,nvarchar,text,Pass
+emaildepartment,fromemailaddress,nvarchar,text,Pass
+emaildepartment,id,int,integer,Pass
+emaildepartment,permittedadgroups,nvarchar,text,Pass
+emailgroup,approvalstatus,nvarchar,text,Pass
+emailgroup,approvedat,datetime2,timestamp without time zone,Pass
+emailgroup,approvedby,nvarchar,text,Pass
+emailgroup,bcc,nvarchar,text,Pass
+emailgroup,cc,nvarchar,text,Pass
+emailgroup,createdat,datetime2,timestamp without time zone,Pass
+emailgroup,createdby,nvarchar,text,Pass
+emailgroup,department,nvarchar,text,Pass
+emailgroup,externalparty,nvarchar,text,Pass
+emailgroup,externalpartycode,nvarchar,character varying,Pass
+emailgroup,id,int,integer,Pass
+emailgroup,initialid,int,integer,Pass
+emailgroup,name,nvarchar,text,Pass
+emailgroup,previousid,int,integer,Pass
+emailgroup,replyto,nvarchar,character varying,Pass
+emailgroup,to,nvarchar,text,Pass
+emailgroup,updatedat,datetime2,timestamp without time zone,Pass
+emailgroup,updatedby,nvarchar,text,Pass
+emailmessage,action,nvarchar,text,Pass
+emailmessage,bcc,nvarchar,text,Pass
+emailmessage,cc,nvarchar,text,Pass
+emailmessage,contentscanresult,nvarchar,character varying,Pass
+emailmessage,department,nvarchar,text,Pass
+emailmessage,emailgroup,nvarchar,text,Pass
+emailmessage,errormessage,nvarchar,text,Pass
+emailmessage,externalpartycode,nvarchar,character varying,Pass
+emailmessage,from,nvarchar,text,Pass
+emailmessage,htmlbody,nvarchar,text,Pass
+emailmessage,id,uniqueidentifier,uuid,Pass
+emailmessage,originatinguser,nvarchar,text,Pass
+emailmessage,priority,nvarchar,text,Pass
+emailmessage,receivedtimestamp,datetime2,timestamp without time zone,Pass
+emailmessage,replyto,nvarchar,text,Pass
+emailmessage,requestreadreceipt,bit,boolean,Pass
+emailmessage,sendinghost,nvarchar,text,Pass
+emailmessage,senttimestamp,datetime2,timestamp without time zone,Pass
+emailmessage,source,nvarchar,text,Pass
+emailmessage,status,nvarchar,text,Pass
+emailmessage,subject,nvarchar,text,Pass
+emailmessage,textbody,nvarchar,text,Pass
+emailmessage,to,nvarchar,text,Pass
+emailmessageemailgroup,emailgroupid,int,integer,Pass
+emailmessageemailgroup,emailmessageid,uniqueidentifier,uuid,Pass
+emailmessageemailgroup,id,uniqueidentifier,uuid,Pass
+externalparty,approvalstatus,nvarchar,text,Pass
+externalparty,approvedat,datetime2,timestamp without time zone,Pass
+externalparty,approvedby,nvarchar,text,Pass
+externalparty,createdat,datetime2,timestamp without time zone,Pass
+externalparty,createdby,nvarchar,text,Pass
+externalparty,domainname,nvarchar,character varying,Pass
+externalparty,externalpartycode,nvarchar,character varying,Pass
+externalparty,id,int,integer,Pass
+externalparty,initialid,int,integer,Pass
+externalparty,keywords,nvarchar,text,Pass
+externalparty,name,nvarchar,character varying,Pass
+externalparty,onlyallowwithpositiveidentification,bit,boolean,Pass
+externalparty,previousid,int,integer,Pass
+externalparty,updatedat,datetime2,timestamp without time zone,Pass
+externalparty,updatedby,nvarchar,text,Pass
+ruleviolation,enforcement,nvarchar,character varying,Pass
+ruleviolation,id,int,integer,Pass
+ruleviolation,message,nvarchar,character varying,Pass
+ruleviolation,messageid,uniqueidentifier,uuid,Pass
+ruleviolation,timestamputc,datetime2,timestamp without time zone,Pass
+ruleviolation,violationtype,nvarchar,character varying,Pass

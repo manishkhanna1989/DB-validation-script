@@ -1,0 +1,10 @@
+TableName,SQL Count,PG Count,Status
+__efmigrationshistory,19,20,Fail
+approvalrules,0,0,Pass
+attachments,222374,223102,Fail
+emaildepartment,4,4,Pass
+emailgroup,1243,1247,Fail
+emailmessage,276717,277570,Fail
+emailmessageemailgroup,0,0,Pass
+externalparty,4,4,Pass
+ruleviolation,10873,10893,Fail

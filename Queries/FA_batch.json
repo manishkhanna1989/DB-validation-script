@@ -1,0 +1,7 @@
+[
+  {
+    "tableName": "vwpnlcalculated_2021",
+    "pgQuery": "select cobdate, fund, book, pnldtd, pnlmtd, pnlytd, financedtd, financemtd, financeytd, commissiondtd, commissionmtd, commissionytd  from dbo.vwpnlcalculated where cobdate BETWEEN '${startDate}' AND '${endDate}' ORDER BY CobDate DESC, Fund DESC, Book DESC, pnldtd DESC, pnlmtd DESC, pnlytd DESC, financeytd DESC, financemtd DESC, commissionytd DESC, commissiondtd DESC;",
+    "sfQuery": "select cobdate, fund, book, pnldtd, pnlmtd, pnlytd, financedtd, financemtd, financeytd, commissiondtd, commissionmtd, commissionytd  from dbo.vwpnlcalculated where cobdate BETWEEN '${startDate}' AND '${endDate}' ORDER BY CobDate DESC, Fund DESC, Book DESC, pnldtd DESC, pnlmtd DESC, pnlytd DESC, financeytd DESC, financemtd DESC, commissionytd DESC, commissiondtd DESC;"
+  }
+]

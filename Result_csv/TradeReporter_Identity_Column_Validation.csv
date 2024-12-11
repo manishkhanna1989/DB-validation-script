@@ -1,0 +1,5 @@
+TableName,PG Identity Column Name,SQL Identity Column Name,Status
+dtproperties,id,id,Pass
+intradaycountmonitor,id,id,Pass
+purgedtrade,purgedtradeid,purgedtradeid,Pass
+tradeallcmregressiontest,id,id,Pass

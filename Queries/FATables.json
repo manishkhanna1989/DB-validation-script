@@ -1,0 +1,22 @@
+[
+    {
+        "tableName": "adjustmentevent",
+        "pgQuery": "select * from  dbo.adjustmentevent order by id desc;",
+        "sfQuery": "select * from  dbo.adjustmentevent order by id desc;"
+    },
+    {
+        "tableName": "fundproperties",
+        "pgQuery": "select * from  dbo.fundproperties order by fund desc, startdate desc;",
+        "sfQuery": "select * from  dbo.fundproperties order by fund desc, startdate desc;"
+    },
+    {
+        "tableName": "fxratesusdmarketdataset",
+        "pgQuery": "select * from  dbo.fxratesusdmarketdataset order by mktdataset desc, ccy desc, date desc;",
+        "sfQuery": "select * from  dbo.fxratesusdmarketdataset order by mktdataset desc, ccy desc, date desc;"
+    },
+    {
+        "tableName": "funddetails",
+        "pgQuery": "select * from  dbo.funddetails order by fund desc;",
+        "sfQuery": "select * from  dbo.funddetails order by fund desc;"
+    }
+] 

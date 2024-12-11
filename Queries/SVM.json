@@ -1,0 +1,22 @@
+[
+    {
+        "tableName": "TradeDefinition",
+        "pgQuery": "select * from dbo.TradeDefinition order by bhid asc ;",
+        "sfQuery": "select * from dbo.TradeDefinition order by bhid asc ;"
+    },
+    {
+        "tableName": "curvedefinition",
+        "pgQuery": "select * from dbo.curvedefinition order by CurveDefinitionId asc ;",
+        "sfQuery": "select * from dbo.curvedefinition order by CurveDefinitionId asc ;"
+    },
+    {
+        "tableName": "risktypedefinition",
+        "pgQuery": "select * from dbo.risktypedefinition order by RiskTypeDefinitionId asc ;",
+        "sfQuery": "select * from dbo.risktypedefinition order by RiskTypeDefinitionId asc ;"
+    },
+    {
+        "tableName": "Load_Master",
+        "pgQuery": "select * from dbo.Load_Master order by LoadId asc ;",
+        "sfQuery": "select * from dbo.Load_Master order by LoadId asc ;"
+    }
+]

@@ -1,0 +1,7 @@
+[  
+    {
+        "tableName": "emailgroup",
+        "pgQuery": "select * from dbo.emailgroup order by id DESC",
+        "sfQuery": "select * from dbo.emailgroup order by id DESC"
+    }
+]

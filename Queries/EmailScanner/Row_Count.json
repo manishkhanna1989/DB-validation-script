@@ -1,0 +1,6 @@
+[
+    {
+      "pgQuery": "SELECT DISTINCT c.table_name, c.table_schema, c.table_catalog FROM information_schema.columns c JOIN information_schema.tables t ON c.table_schema = t.table_schema AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo') AND t.table_type = 'BASE TABLE' ORDER BY table_name ASC;",
+      "sqlQuery": "SELECT DISTINCT LOWER(c.table_name) as table_name, LOWER(c.table_schema) as table_schema, c.table_catalog as table_catalog FROM information_schema.columns c JOIN information_schema.tables t ON c.table_schema = t.table_schema AND c.table_name = t.table_name WHERE c.table_schema IN ('dbo') AND t.table_type = 'BASE TABLE' ORDER BY table_name ASC;"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+      "pgQuery": "SELECT table_name, column_name FROM information_schema.columns WHERE is_identity = 'YES' AND table_name not like '%_202%' order by table_name; ",
+      "sqlQuery": "SELECT lower(t.name) AS table_name, lower(c.name) AS column_name FROM sys.columns c JOIN sys.tables t ON c.object_id = t.object_id WHERE c.is_identity = 1 AND t.name not like '%_202%' order by table_name;"
+    }
+]

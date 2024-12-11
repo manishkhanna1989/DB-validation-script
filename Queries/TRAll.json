@@ -1,0 +1,495 @@
+[
+    {
+        "tableName": "bookmap",
+        "pgQuery": "select * from dbo.bookmap order by book desc, inv_manager_date desc;",
+        "sfQuery": "select * from dbo.bookmap order by book desc, inv_manager_date desc;"
+    },
+    {
+        "tableName": "load_bookmap",
+        "pgQuery": "select * from dbo.load_bookmap order by book desc, inv_manager_date desc;",
+        "sfQuery": "select * from dbo.load_bookmap order by book desc, inv_manager_date desc;"
+    },
+    {
+        "tableName": "config_earlyexpirymap",
+        "pgQuery": "select * from dbo.config_earlyexpirymap ;",
+        "sfQuery": "select * from dbo.config_earlyexpirymap ;"
+    },
+    {
+        "tableName": "config_mailaddress",
+        "pgQuery": "select * from dbo.config_mailaddress ;",
+        "sfQuery": "select * from dbo.config_mailaddress ;"
+    },
+    {
+        "tableName": "config_svmcurveoverride",
+        "pgQuery": "select * from dbo.config_svmcurveoverride ;",
+        "sfQuery": "select * from dbo.config_svmcurveoverride ;"
+    },
+    {
+        "tableName": "equityspread",
+        "pgQuery": "select * from dbo.equityspread ;",
+        "sfQuery": "select * from dbo.equityspread ;"
+    },
+    {
+        "tableName": "GnIndex",
+        "pgQuery": "SELECT * from dbo.GnIndex ;",
+        "sfQuery": "SELECT * from dbo.GnIndex ;"
+    },
+    {
+        "tableName": "load_bondtickerupdate",
+        "pgQuery": "SELECT * FROM dbo.load_bondtickerupdate;",
+        "sfQuery": "SELECT * FROM dbo.load_bondtickerupdate;"
+    },
+    {
+        "tableName": "load_extendedcategory",
+        "pgQuery": "SELECT * FROM dbo.load_extendedcategory order by extcatid asc;",
+        "sfQuery": "SELECT * FROM dbo.load_extendedcategory order by extcatid asc;"
+    },
+    {
+        "tableName": "load_symbolsintraday",
+        "pgQuery": "SELECT * FROM dbo.load_symbolsintraday order by bhid asc;",
+        "sfQuery": "SELECT * FROM dbo.load_symbolsintraday order by bhid asc;"
+    },
+    {
+        "tableName": "load_tradewide",
+        "pgQuery": "SELECT * FROM dbo.load_tradewide order by bhid asc;",
+        "sfQuery": "SELECT * FROM dbo.load_tradewide order by bhid asc;"
+    },
+    {
+        "tableName": "mktmonbondrepo2",
+        "pgQuery": "select * from dbo.mktmonbondrepo2 order by isin asc;",
+        "sfQuery": "select * from dbo.mktmonbondrepo2 order by isin asc;"
+    },
+    {
+        "tableName": "fundprovision",
+        "pgQuery": "select * from dbo.fundprovision;",
+        "sfQuery": "select * from dbo.fundprovision;"
+    },
+    {
+        "tableName": "fundadjustment",
+        "pgQuery": "select * from dbo.fundadjustment;",
+        "sfQuery": "select * from dbo.fundadjustment;"
+    },
+    {
+        "tableName": "load_fundadjustment",
+        "pgQuery": "select * from dbo.load_fundadjustment;",
+        "sfQuery": "select * from dbo.load_fundadjustment;"
+    },
+    {
+        "tableName": "load_fundprovision",
+        "pgQuery": "select * from dbo.load_fundprovision;",
+        "sfQuery": "select * from dbo.load_fundprovision;"
+    },
+    {
+        "tableName": "counterpartymap",
+        "pgQuery": "select * from dbo.counterpartymap ;",
+        "sfQuery": "select * from dbo.counterpartymap ;"
+    },
+    {
+        "tableName": "load_counterpartymap",
+        "pgQuery": "select * from dbo.load_counterpartymap ;",
+        "sfQuery": "select * from dbo.load_counterpartymap ;"
+    },
+    {
+        "tableName": "murexearlyterminfous2_eod",
+        "pgQuery": "select * from dbo.murexearlyterminfous2_eod;",
+        "sfQuery": "select * from dbo.murexearlyterminfous2_eod;"
+    },
+    {
+        "tableName": "murexearlyterminfous1_eod",
+        "pgQuery": "select * from dbo.murexearlyterminfous1_eod;",
+        "sfQuery": "select * from dbo.murexearlyterminfous1_eod;"
+    },
+    {
+        "tableName": "murexearlyterminfoemea1_eod",
+        "pgQuery": "select * from dbo.murexearlyterminfoemea1_eod order by FlowId asc;",
+        "sfQuery": "select * from dbo.murexearlyterminfoemea1_eod order by FlowId asc;"
+    },
+    {
+        "tableName": "status",
+        "pgQuery": "select * from dbo.status;",
+        "sfQuery": "select * from dbo.status;"
+    },
+    {
+        "tableName": "referencedate1",
+        "pgQuery": "select * from dbo.referencedate1 order by fund asc ;",
+        "sfQuery": "select * from dbo.referencedate1 order by fund asc ;"
+    },
+    {
+        "tableName": "archive",
+        "pgQuery": "select * from dbo.archive order by ArchiveDate asc;",
+        "sfQuery": "select * from dbo.archive order by ArchiveDate asc;"
+    },
+    {
+        "tableName": "mktmonbondpos1",
+        "pgQuery": "select * from dbo.mktmonbondpos1 order by Fund asc, isin asc;",
+        "sfQuery": "select * from dbo.mktmonbondpos1 order by Fund asc, isin asc;"
+    },
+    {
+        "tableName": "mktmonbondpos2",
+        "pgQuery": "select * from dbo.mktmonbondpos2 order by Fund asc, isin asc;",
+        "sfQuery": "select * from dbo.mktmonbondpos2 order by Fund asc, isin asc;"
+    },
+    {
+        "tableName": "collateral1",
+        "pgQuery": " select * from  dbo.collateral1 order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+        "sfQuery": " select * from  dbo.collateral1 order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+    },
+    {
+        "tableName": "collateral2",
+        "pgQuery": " select * from  dbo.collateral2 order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+        "sfQuery": " select * from  dbo.collateral2 order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+    },
+    {
+        "tableName": "collateralemea2_eod",
+        "pgQuery": "select * from dbo.collateralemea2_eod ;",
+        "sfQuery": "select * from dbo.collateralemea2_eod ;"
+    },
+    {
+        "tableName": "collateralus2_eod",
+        "pgQuery": "select * from dbo.collateralus2_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+        "sfQuery": "select * from dbo.collateralus2_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+    },
+    {
+        "tableName": "custom_svmintraday1",
+        "pgQuery": "select * from  dbo.custom_svmintraday1 order by bhid asc, tradeid asc;",
+        "sfQuery": "select * from  dbo.custom_svmintraday1 order by bhid asc, tradeid asc;"
+    },
+    {
+        "tableName": "custom_svmintraday2",
+        "pgQuery": "select * from  dbo.custom_svmintraday2 order by bhid asc, tradeid asc;",
+        "sfQuery": "select * from  dbo.custom_svmintraday2 order by bhid asc, tradeid asc;"
+    },
+    {
+        "tableName": "custom_svmintraday_temp",
+        "pgQuery": "select * from  dbo.custom_svmintraday_temp order by bhid asc, tradeid asc;",
+        "sfQuery": "select * from  dbo.custom_svmintraday_temp order by bhid asc, tradeid asc;"
+    },
+    {
+        "tableName": "load_irdexo_sob",
+        "pgQuery": " select * from  dbo.load_irdexo_sob order by nbinternal asc;",
+        "sfQuery": " select * from  dbo.load_irdexo_sob order by nbinternal asc;"
+    },
+    {
+        "tableName": "murexearlyterminfo1",
+        "pgQuery": " select * from  dbo.murexearlyterminfo1 order by nbinternal asc;",
+        "sfQuery": " select * from  dbo.murexearlyterminfo1 order by nbinternal asc;"
+    },
+    {
+        "tableName": "murexearlyterminfo2",
+        "pgQuery": " select * from  dbo.murexearlyterminfo2 order by nbinternal asc;",
+        "sfQuery": " select * from  dbo.murexearlyterminfo2 order by nbinternal asc;"
+    },
+    {
+        "tableName": "symbolsoverridehistory",
+        "pgQuery": " select * from  dbo.symbolsoverridehistory order by bhid asc;",
+        "sfQuery": " select * from  dbo.symbolsoverridehistory order by bhid asc;"
+    },
+    {
+        "tableName": "tminus1t0_tradeerrorqueuehistory",
+        "pgQuery": " select * from  dbo.tminus1t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+        "sfQuery": " select * from  dbo.tminus1t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+    },
+    {
+        "tableName": "tminus2_tradeerrorqueuehistory",
+        "pgQuery": " select * from  dbo.tminus2_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+        "sfQuery": " select * from  dbo.tminus2_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+    },
+    {
+        "tableName": "tminus2t0_tradeerrorqueuehistory",
+        "pgQuery": " select * from  dbo.tminus2t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+        "sfQuery": " select * from  dbo.tminus2t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+    },
+    {
+        "tableName": "tradeerrorqueuehistory",
+        "pgQuery": " select * from  dbo.tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+        "sfQuery": " select * from  dbo.tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+    },
+    {
+        "tableName": "tminus1_tradeerrorqueuehistory",
+        "pgQuery": "select * from dbo.tminus1_tradeerrorqueuehistory order by createdat asc, bhid asc ;",
+        "sfQuery": "select * from dbo.tminus1_tradeerrorqueuehistory order by createdat asc, bhid asc ;"
+    },
+    {
+        "tableName": "murexearlyterminfoemea2_eod",
+        "pgQuery": "select * from dbo.murexearlyterminfoemea2_eod order by nbinternal asc, bhid asc ;",
+        "sfQuery": "select * from dbo.murexearlyterminfoemea2_eod order by nbinternal asc, bhid asc ;"
+    },
+    {
+        "tableName": "load_symbolscob",
+        "pgQuery": "SELECT * FROM dbo.load_symbolscob order by bhid asc;",
+        "sfQuery": "SELECT * FROM dbo.load_symbolscob order by bhid asc;"
+    },
+    {
+        "tableName": "uploadhistory",
+        "pgQuery": "select * from dbo.uploadhistory order by cobdate asc, started asc, completed asc",
+        "sfQuery": "select * from dbo.uploadhistory order by cobdate asc, started asc, completed asc"
+    },
+    {
+        "tableName": "status",
+        "pgQuery": "select * from dbo.status",
+        "sfQuery": "select * from dbo.status"
+    },
+    {
+        "tableName": "custom_svmsob",
+        "pgQuery": "select * from  dbo.custom_svmsob order by bhid asc, tradeid asc;",
+        "sfQuery": "select * from  dbo.custom_svmsob order by bhid asc, tradeid asc;"
+    },
+    
+
+
+
+    [
+        {
+            "tableName": "archive",
+            "pgQuery": "select * from dbo.archive order by ArchiveDate asc;",
+            "sfQuery": "select * from dbo.archive order by ArchiveDate asc;"
+        },
+        {
+            "tableName": "bookmap",
+            "pgQuery": "select * from dbo.bookmap order by book desc, inv_manager_date desc;",
+            "sfQuery": "select * from dbo.bookmap order by book desc, inv_manager_date desc;"
+        },
+        {
+            "tableName": "config_earlyexpirymap",
+            "pgQuery": "select * from dbo.config_earlyexpirymap ;",
+            "sfQuery": "select * from dbo.config_earlyexpirymap ;"
+        },
+        {
+            "tableName": "config_mailaddress",
+            "pgQuery": "select * from dbo.config_mailaddress ;",
+            "sfQuery": "select * from dbo.config_mailaddress ;"
+        },
+        {
+            "tableName": "config_svmcurveoverride",
+            "pgQuery": "select * from dbo.config_svmcurveoverride ;",
+            "sfQuery": "select * from dbo.config_svmcurveoverride ;"
+        },
+        {
+            "tableName": "counterpartymap",
+            "pgQuery": "select * from dbo.counterpartymap ;",
+            "sfQuery": "select * from dbo.counterpartymap ;"
+        },
+        {
+            "tableName": "equityspread",
+            "pgQuery": "select * from dbo.equityspread ;",
+            "sfQuery": "select * from dbo.equityspread ;"
+        },
+        {
+            "tableName": "fundadjustment",
+            "pgQuery": "select * from dbo.fundadjustment;",
+            "sfQuery": "select * from dbo.fundadjustment;"
+        },
+        {
+            "tableName": "fundprovision",
+            "pgQuery": "select * from dbo.fundprovision;",
+            "sfQuery": "select * from dbo.fundprovision;"
+        },
+        {
+            "tableName": "GnIndex",
+            "pgQuery": "SELECT * from dbo.GnIndex ;",
+            "sfQuery": "SELECT * from dbo.GnIndex ;"
+        },
+        {
+            "tableName": "load_bondtickerupdate",
+            "pgQuery": "SELECT * FROM dbo.load_bondtickerupdate;",
+            "sfQuery": "SELECT * FROM dbo.load_bondtickerupdate;"
+        },
+        {
+            "tableName": "load_extendedcategory",
+            "pgQuery": "SELECT * FROM dbo.load_extendedcategory order by extcatid asc;",
+            "sfQuery": "SELECT * FROM dbo.load_extendedcategory order by extcatid asc;"
+        },
+        {
+            "tableName": "load_fundprovision",
+            "pgQuery": "select * from dbo.load_fundprovision;",
+            "sfQuery": "select * from dbo.load_fundprovision;"
+        },
+        {
+            "tableName": "load_bookmap",
+            "pgQuery": "select * from dbo.load_bookmap order by book desc, inv_manager_date desc;",
+            "sfQuery": "select * from dbo.load_bookmap order by book desc, inv_manager_date desc;"
+        },
+        {
+            "tableName": "load_counterpartymap",
+            "pgQuery": "select * from dbo.load_counterpartymap ;",
+            "sfQuery": "select * from dbo.load_counterpartymap ;"
+        },
+        {
+            "tableName": "load_symbolscob",
+            "pgQuery": "SELECT * FROM dbo.load_symbolscob order by bhid asc;",
+            "sfQuery": "SELECT * FROM dbo.load_symbolscob order by bhid asc;"
+        },
+        {
+            "tableName": "load_symbolsintraday",
+            "pgQuery": "SELECT * FROM dbo.load_symbolsintraday order by bhid asc;",
+            "sfQuery": "SELECT * FROM dbo.load_symbolsintraday order by bhid asc;"
+        },
+        {
+            "tableName": "load_tradewide",
+            "pgQuery": "SELECT * FROM dbo.load_tradewide order by bhid asc;",
+            "sfQuery": "SELECT * FROM dbo.load_tradewide order by bhid asc;"
+        },
+        {
+            "tableName": "mktmonbondpos1",
+            "pgQuery": "select * from dbo.mktmonbondpos1 order by Fund asc, isin asc;",
+            "sfQuery": "select * from dbo.mktmonbondpos1 order by Fund asc, isin asc;"
+        },
+        {
+            "tableName": "mktmonbondpos2",
+            "pgQuery": "select * from dbo.mktmonbondpos2 order by Fund asc, isin asc;",
+            "sfQuery": "select * from dbo.mktmonbondpos2 order by Fund asc, isin asc;"
+        },
+        {
+            "tableName": "mktmonbondrepo2",
+            "pgQuery": "select * from dbo.mktmonbondrepo2 order by isin asc;",
+            "sfQuery": "select * from dbo.mktmonbondrepo2 order by isin asc;"
+        },
+        {
+            "tableName": "referencedate1",
+            "pgQuery": "select * from dbo.referencedate1 order by fund asc ;",
+            "sfQuery": "select * from dbo.referencedate1 order by fund asc ;"
+        },
+        {
+            "tableName": "referencedate2",
+            "pgQuery": "select * from dbo.referencedate2 order by fund asc ;",
+            "sfQuery": "select * from dbo.referencedate2 order by fund asc ;"
+        },
+        {
+            "tableName": "load_fundadjustment",
+            "pgQuery": "select * from dbo.load_fundadjustment;",
+            "sfQuery": "select * from dbo.load_fundadjustment;"
+        },
+        {
+            "tableName": "duplicateindexationnbs",
+            "pgQuery": "select * from dbo.duplicateindexationnbs ;",
+            "sfQuery": "select * from dbo.duplicateindexationnbs ;"
+        },
+        {
+            "tableName": "gn_indx_exclusion_entries",
+            "pgQuery": "select * from dbo.gn_indx_exclusion_entries ;",
+            "sfQuery": "select * from dbo.gn_indx_exclusion_entries ;"
+        },
+        {
+            "tableName": "symbolscob",
+            "pgQuery": "select * from dbo.symbolscob order by bhid asc;",
+            "sfQuery": "select * from dbo.symbolscob order by bhid asc;"
+        }
+
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+,
+    [
+        {
+            "tableName": "collateral1",
+            "pgQuery": " select * from  dbo.collateral1 order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+            "sfQuery": " select * from  dbo.collateral1 order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+        },
+        {
+            "tableName": "collateral2",
+            "pgQuery": " select * from  dbo.collateral2 order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+            "sfQuery": " select * from  dbo.collateral2 order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+        },
+        {
+            "tableName": "collateralus1_eod",
+            "pgQuery": "select * from dbo.collateralus1_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+            "sfQuery": "select * from dbo.collateralus1_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+        },
+        {
+            "tableName": "collateralus2_eod",
+            "pgQuery": "select * from dbo.collateralus2_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;",
+            "sfQuery": "select * from dbo.collateralus2_eod order by date asc, eventdate asc, amount asc, Portfolio asc ;"
+        },
+        {
+            "tableName": "custom_svmintraday1",
+            "pgQuery": "select * from  dbo.custom_svmintraday1 order by bhid asc, tradeid asc;",
+            "sfQuery": "select * from  dbo.custom_svmintraday1 order by bhid asc, tradeid asc;"
+        },
+        {
+            "tableName": "custom_svmintraday2",
+            "pgQuery": "select * from  dbo.custom_svmintraday2 order by bhid asc, tradeid asc;",
+            "sfQuery": "select * from  dbo.custom_svmintraday2 order by bhid asc, tradeid asc;"
+        },
+        {
+            "tableName": "custom_svmintraday_temp",
+            "pgQuery": "select * from  dbo.custom_svmintraday_temp order by bhid asc, tradeid asc;",
+            "sfQuery": "select * from  dbo.custom_svmintraday_temp order by bhid asc, tradeid asc;"
+        },
+        
+        {
+            "tableName": "load_irdexo_sob",
+            "pgQuery": " select * from  dbo.load_irdexo_sob order by nbinternal asc;",
+            "sfQuery": " select * from  dbo.load_irdexo_sob order by nbinternal asc;"
+        },
+        {
+            "tableName": "murexearlyterminfo1",
+            "pgQuery": " select * from  dbo.murexearlyterminfo1 order by nbinternal asc;",
+            "sfQuery": " select * from  dbo.murexearlyterminfo1 order by nbinternal asc;"
+        },
+        {
+            "tableName": "murexearlyterminfo2",
+            "pgQuery": " select * from  dbo.murexearlyterminfo2 order by nbinternal asc;",
+            "sfQuery": " select * from  dbo.murexearlyterminfo2 order by nbinternal asc;"
+        },
+        {
+            "tableName": "murexearlyterminfoemea1_eod",
+            "pgQuery": "select * from dbo.murexearlyterminfoemea1_eod order by FlowId asc;",
+            "sfQuery": "select * from dbo.murexearlyterminfoemea1_eod order by FlowId asc;"
+        },
+        {
+            "tableName": "murexearlyterminfoemea2_eod",
+            "pgQuery": "select * from dbo.murexearlyterminfoemea2_eod order by nbinternal asc, bhid asc ;",
+            "sfQuery": "select * from dbo.murexearlyterminfoemea2_eod order by nbinternal asc, bhid asc ;"
+        },
+        {
+            "tableName": "murexearlyterminfous1_eod",
+            "pgQuery": "select * from dbo.murexearlyterminfous1_eod;",
+            "sfQuery": "select * from dbo.murexearlyterminfous1_eod;"
+        },
+        {
+            "tableName": "murexearlyterminfous2_eod",
+            "pgQuery": "select * from dbo.murexearlyterminfous2_eod;",
+            "sfQuery": "select * from dbo.murexearlyterminfous2_eod;"
+        },
+        {
+            "tableName": "symbolsoverridehistory",
+            "pgQuery": " select * from  dbo.symbolsoverridehistory order by bhid asc;",
+            "sfQuery": " select * from  dbo.symbolsoverridehistory order by bhid asc;"
+        },
+        {
+            "tableName": "tminus1_tradeerrorqueuehistory",
+            "pgQuery": "select * from dbo.tminus1_tradeerrorqueuehistory order by createdat asc, bhid asc ;",
+            "sfQuery": "select * from dbo.tminus1_tradeerrorqueuehistory order by createdat asc, bhid asc ;"
+        },
+        {
+            "tableName": "tminus1t0_tradeerrorqueuehistory",
+            "pgQuery": " select * from  dbo.tminus1t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+            "sfQuery": " select * from  dbo.tminus1t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+        },
+        {
+            "tableName": "tminus2_tradeerrorqueuehistory",
+            "pgQuery": " select * from  dbo.tminus2_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+            "sfQuery": " select * from  dbo.tminus2_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+        },
+        {
+            "tableName": "tminus2t0_tradeerrorqueuehistory",
+            "pgQuery": " select * from  dbo.tminus2t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+            "sfQuery": " select * from  dbo.tminus2t0_tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+        },
+        {
+            "tableName": "tradeerrorqueuehistory",
+            "pgQuery": " select * from  dbo.tradeerrorqueuehistory order by bhid asc, deletedat asc;",
+            "sfQuery": " select * from  dbo.tradeerrorqueuehistory order by bhid asc, deletedat asc;"
+        }
+    ]
+]

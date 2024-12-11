@@ -1,0 +1,6 @@
+TableName,PG Identity Column Name,SQL Identity Column Name,Status
+approvalrules,id,id,Pass
+emaildepartment,id,id,Pass
+emailgroup,id,id,Pass
+externalparty,id,id,Pass
+ruleviolation,id,id,Pass

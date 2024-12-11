@@ -1,53 +1,49 @@
 const pgp = require('pg-promise')();
-const snowflake = require('snowflake-sdk');
-let pgDB;
+let pgDB ;
 require('dotenv').config();
+const sql = require('mssql');
 
-function getPostgresData(pgQuery) {
-    const pgConfig = {
-        host: process.env.pghost,
-        port : process.env.pgport,
-        database : process.env.pgdatabase,
-        user : process.env.pguser,
-        password : process.env.pgpassword
+function getPostgresData(database, pgQuery) {     
+    const config = {
+        host: process.env.pgHost,        
+        port: parseInt(process.env.pgPort),
+        database: database,
+        user: process.env.pgUser,        
+        password: process.env.pgPassword,
+        ssl: { 
+            rejectUnauthorized: false 
+        }    
     };
-    
     if (!pgDB) {
-        pgDB = pgp(pgConfig);
+        pgDB = pgp(config);
     }
-
     return pgDB.any(pgQuery);
 }
 
-async function getSnowflakeData(sfQuery) {
-    // Snowflake connection parameters
-    const sfConfig = {
-      account: process.env.account,
-      region: process.env.region,
-      username: process.env.DBusername,
-      password: process.env.DBpassword,
-      warehouse: process.env.warehouse,
-      database: process.env.database,
-      role: process.env.role
-
+async function getSqlData(database, query) {
+    const config = {
+        user: process.env.sqlUser,     
+        password: process.env.sqlPassword,  
+        server: process.env.sqlServer,
+        database: database,
+        requestTimeout:360000,
+        connectionTimeout :36000,
+        options: {
+            encrypt: true,             
+            trustServerCertificate: true
+        }
     };
-
-    const sfConnection = snowflake.createConnection(sfConfig);
-    await sfConnection.connect();
-
-    return new Promise((resolve, reject) => {
-        sfConnection.execute({
-            sqlText: sfQuery,
-            complete: function (err, stmt, rows) {
-                if (err) {
-                    console.error('Error executing query: ', err);
-                    reject(err);
-                } else {
-                    resolve(rows);
-                }
-            }
-        });
-    });
+    try {
+        const pool = await sql.connect(config);
+        const result = await pool.request().query(query);
+        return result.recordset;
+    } catch (err) {
+        console.error('SQL error', err);
+        throw err;
+    } finally {
+        
+        sql.close();
+    }
 }
 
 function compareSets(set1, set2) {
@@ -56,21 +52,23 @@ function compareSets(set1, set2) {
 
 async function closePostgresConnection() {
     if (pgDB) {
-        await pgDB.$pool.end(); // Close the pg-promise connection pool
+        await pgDB.$pool.end(); 
         pgDB = null; 
     }
 }
 
-async function closeSnowflakeConnection(sfConnection) {
-    if (sfConnection) {
-        await sfConnection.destroy(); // Close the Snowflake connection
+async function closeSqlConnection() {
+    try {
+        await sql.close(); 
+    } catch (err) {
+        console.error('Error closing SQL connection', err);
     }
 }
 
 module.exports = {
     getPostgresData,
-    getSnowflakeData,
+    getSqlData,
     compareSets,
     closePostgresConnection,
-    closeSnowflakeConnection,
+    closeSqlConnection,
 };

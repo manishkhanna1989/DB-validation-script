@@ -1,0 +1,12 @@
+[
+  {
+    "tableName": "risk_20241029",
+   "pgQuery": "select * from dbo.risk_20241029 order by riskid asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.risk_20241029 order by riskid asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 500000,
+      "totalRecords": 18669908
+    }
+  }
+]

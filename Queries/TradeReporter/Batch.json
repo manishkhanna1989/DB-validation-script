@@ -1,0 +1,42 @@
+[
+  {
+    "tableName": "symbolscob",
+    "pgQuery": "select * from dbo.symbolscob order by bhid asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.symbolscob order by bhid asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 50000,
+      "totalRecords": 844256
+    }
+  },
+  {
+    "tableName": "load_symbolscob",
+    "pgQuery": "select * from dbo.load_symbolscob order by bhid asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.load_symbolscob order by bhid asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 50000,
+      "totalRecords": 844256
+    }
+  },
+  {
+    "tableName": "load_permission",
+   "pgQuery": "select * from dbo.load_permission order by id asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.load_permission order by id asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 500000,
+      "totalRecords": 5126923
+    }
+  },
+  {
+    "tableName": "custom_svmsob",
+   "pgQuery": "select * from dbo.custom_svmsob order by bhid asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.custom_svmsob order by bhid asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 500000,
+      "totalRecords": 2126923
+    }
+  }
+]

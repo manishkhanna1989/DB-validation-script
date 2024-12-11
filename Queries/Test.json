@@ -1,0 +1,12 @@
+[
+    {
+        "viewName": "vw_referencedatenew",
+        "pgQuery": "select * from dbo.vw_referencedatenew;",
+        "sfQuery": "select * from dbo.vw_referencedatenew;"
+    },
+    {
+        "viewName": "vw_userpermissionsfund",
+        "pgQuery": "select * from dbo.vw_userpermissionsfund;",
+        "sfQuery": "select * from dbo.vw_userpermissionsfund;"
+    }
+]

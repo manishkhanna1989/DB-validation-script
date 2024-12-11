@@ -1,0 +1,1373 @@
+2024-10-09 06:56:13 - Table names count do not match.
+2024-10-09 06:56:13 - All table names in PostgreSQL are present in Sql.
+2024-10-09 06:56:13 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-09 06:56:19 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-09 06:56:19 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table curveconfig_main: Sql Count: 9402, PostgreSQL Count: 9402
+2024-10-09 06:56:19 - Counts match for table curvemap: Sql Count: 491, PostgreSQL Count: 491
+2024-10-09 06:56:19 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-09 06:56:19 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table curveriskmap_main: Sql Count: 3123, PostgreSQL Count: 3123
+2024-10-09 06:56:19 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-09 06:56:19 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-09 06:56:19 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table fxrate_main: Sql Count: 12096, PostgreSQL Count: 12096
+2024-10-09 06:56:19 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table inflationstrategy_main: Sql Count: 83, PostgreSQL Count: 83
+2024-10-09 06:56:19 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-09 06:56:19 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:56:19 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_batchdate_main: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:56:19 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_extendedcategory_main: Sql Count: 707, PostgreSQL Count: 707
+2024-10-09 06:56:19 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:56:19 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_pltrade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:56:19 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svmrisk_main: Sql Count: 14796671, PostgreSQL Count: 14796671
+2024-10-09 06:56:19 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-09 06:56:19 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table load_svrisk_main: Sql Count: 11460807, PostgreSQL Count: 11460807
+2024-10-09 06:56:19 - Counts match for table permission1: Sql Count: 4986161, PostgreSQL Count: 4986161
+2024-10-09 06:56:19 - Counts match for table permission2: Sql Count: 5061069, PostgreSQL Count: 5061069
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktdelta_main: Sql Count: 902008, PostgreSQL Count: 902008
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdbktgamma_main: Sql Count: 470954, PostgreSQL Count: 470954
+2024-10-09 06:56:19 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-09 06:56:19 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwddelta_main: Sql Count: 907587, PostgreSQL Count: 907587
+2024-10-09 06:56:19 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:56:19 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_fwdstdbktdelta_main: Sql Count: 902025, PostgreSQL Count: 902025
+2024-10-09 06:56:19 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-09 06:56:19 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_parbktdelta_main: Sql Count: 906455, PostgreSQL Count: 906455
+2024-10-09 06:56:19 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-09 06:56:19 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pardelta_main: Sql Count: 912117, PostgreSQL Count: 912117
+2024-10-09 06:56:19 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-09 06:56:19 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pardeltaraw_main: Sql Count: 899452, PostgreSQL Count: 899452
+2024-10-09 06:56:19 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_pargamma_main: Sql Count: 606472, PostgreSQL Count: 606472
+2024-10-09 06:56:19 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_theta_main: Sql Count: 23358, PostgreSQL Count: 23358
+2024-10-09 06:56:19 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_vega_main: Sql Count: 23365, PostgreSQL Count: 23365
+2024-10-09 06:56:19 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-09 06:56:19 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risk_wave_main: Sql Count: 893815, PostgreSQL Count: 893815
+2024-10-09 06:56:19 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-09 06:56:19 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskmodelmap_main: Sql Count: 17, PostgreSQL Count: 17
+2024-10-09 06:56:19 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-09 06:56:19 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table riskpillar_main: Sql Count: 526, PostgreSQL Count: 526
+2024-10-09 06:56:19 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-09 06:56:19 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-09 06:56:19 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table risktransformationmatrix_main: Sql Count: 4604853, PostgreSQL Count: 4604853
+2024-10-09 06:56:19 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:56:19 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:56:19 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table trade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:56:19 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:56:19 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:56:19 - Counts match for table tradelabel_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:57:28 - Table names count do not match.
+2024-10-09 06:57:28 - All table names in PostgreSQL are present in Sql.
+2024-10-09 06:57:28 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-09 06:57:34 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-09 06:57:34 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table curveconfig_main: Sql Count: 9402, PostgreSQL Count: 9402
+2024-10-09 06:57:34 - Counts match for table curvemap: Sql Count: 491, PostgreSQL Count: 491
+2024-10-09 06:57:34 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-09 06:57:34 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table curveriskmap_main: Sql Count: 3123, PostgreSQL Count: 3123
+2024-10-09 06:57:34 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-09 06:57:34 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-09 06:57:34 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table fxrate_main: Sql Count: 12096, PostgreSQL Count: 12096
+2024-10-09 06:57:34 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table inflationstrategy_main: Sql Count: 83, PostgreSQL Count: 83
+2024-10-09 06:57:34 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-09 06:57:34 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:57:34 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_batchdate_main: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:57:34 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_extendedcategory_main: Sql Count: 707, PostgreSQL Count: 707
+2024-10-09 06:57:34 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:57:34 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_pltrade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:57:34 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svmrisk_main: Sql Count: 14796671, PostgreSQL Count: 14796671
+2024-10-09 06:57:34 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-09 06:57:34 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table load_svrisk_main: Sql Count: 11460807, PostgreSQL Count: 11460807
+2024-10-09 06:57:34 - Counts match for table permission1: Sql Count: 4986161, PostgreSQL Count: 4986161
+2024-10-09 06:57:34 - Counts match for table permission2: Sql Count: 5061069, PostgreSQL Count: 5061069
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktdelta_main: Sql Count: 902008, PostgreSQL Count: 902008
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdbktgamma_main: Sql Count: 470954, PostgreSQL Count: 470954
+2024-10-09 06:57:34 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-09 06:57:34 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwddelta_main: Sql Count: 907587, PostgreSQL Count: 907587
+2024-10-09 06:57:34 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:57:34 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_fwdstdbktdelta_main: Sql Count: 902025, PostgreSQL Count: 902025
+2024-10-09 06:57:34 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-09 06:57:34 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_parbktdelta_main: Sql Count: 906455, PostgreSQL Count: 906455
+2024-10-09 06:57:34 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-09 06:57:34 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pardelta_main: Sql Count: 912117, PostgreSQL Count: 912117
+2024-10-09 06:57:34 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-09 06:57:34 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pardeltaraw_main: Sql Count: 899452, PostgreSQL Count: 899452
+2024-10-09 06:57:34 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_pargamma_main: Sql Count: 606472, PostgreSQL Count: 606472
+2024-10-09 06:57:34 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_theta_main: Sql Count: 23358, PostgreSQL Count: 23358
+2024-10-09 06:57:34 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_vega_main: Sql Count: 23365, PostgreSQL Count: 23365
+2024-10-09 06:57:34 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-09 06:57:34 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risk_wave_main: Sql Count: 893815, PostgreSQL Count: 893815
+2024-10-09 06:57:34 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-09 06:57:34 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskmodelmap_main: Sql Count: 17, PostgreSQL Count: 17
+2024-10-09 06:57:34 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-09 06:57:34 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table riskpillar_main: Sql Count: 526, PostgreSQL Count: 526
+2024-10-09 06:57:34 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-09 06:57:34 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-09 06:57:34 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table risktransformationmatrix_main: Sql Count: 4604853, PostgreSQL Count: 4604853
+2024-10-09 06:57:34 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:57:34 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:57:34 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table trade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:57:34 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:57:34 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:57:34 - Counts match for table tradelabel_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:58:38 - Table names count do not match.
+2024-10-09 06:58:38 - All table names in PostgreSQL are present in Sql.
+2024-10-09 06:58:38 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-09 06:58:43 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-09 06:58:43 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table curveconfig_main: Sql Count: 9402, PostgreSQL Count: 9402
+2024-10-09 06:58:43 - Counts match for table curvemap: Sql Count: 491, PostgreSQL Count: 491
+2024-10-09 06:58:43 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-09 06:58:43 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table curveriskmap_main: Sql Count: 3123, PostgreSQL Count: 3123
+2024-10-09 06:58:43 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-09 06:58:43 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-09 06:58:43 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table fxrate_main: Sql Count: 12096, PostgreSQL Count: 12096
+2024-10-09 06:58:43 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table inflationstrategy_main: Sql Count: 83, PostgreSQL Count: 83
+2024-10-09 06:58:43 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-09 06:58:43 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:58:43 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_batchdate_main: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:58:43 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_extendedcategory_main: Sql Count: 707, PostgreSQL Count: 707
+2024-10-09 06:58:43 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:58:43 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_pltrade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:58:43 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svmrisk_main: Sql Count: 14796671, PostgreSQL Count: 14796671
+2024-10-09 06:58:43 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-09 06:58:43 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table load_svrisk_main: Sql Count: 11460807, PostgreSQL Count: 11460807
+2024-10-09 06:58:43 - Counts match for table permission1: Sql Count: 4986161, PostgreSQL Count: 4986161
+2024-10-09 06:58:43 - Counts match for table permission2: Sql Count: 5061069, PostgreSQL Count: 5061069
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktdelta_main: Sql Count: 902008, PostgreSQL Count: 902008
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdbktgamma_main: Sql Count: 470954, PostgreSQL Count: 470954
+2024-10-09 06:58:43 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-09 06:58:43 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwddelta_main: Sql Count: 907587, PostgreSQL Count: 907587
+2024-10-09 06:58:43 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 06:58:43 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_fwdstdbktdelta_main: Sql Count: 902025, PostgreSQL Count: 902025
+2024-10-09 06:58:43 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-09 06:58:43 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_parbktdelta_main: Sql Count: 906455, PostgreSQL Count: 906455
+2024-10-09 06:58:43 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-09 06:58:43 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pardelta_main: Sql Count: 912117, PostgreSQL Count: 912117
+2024-10-09 06:58:43 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-09 06:58:43 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pardeltaraw_main: Sql Count: 899452, PostgreSQL Count: 899452
+2024-10-09 06:58:43 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_pargamma_main: Sql Count: 606472, PostgreSQL Count: 606472
+2024-10-09 06:58:43 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_theta_main: Sql Count: 23358, PostgreSQL Count: 23358
+2024-10-09 06:58:43 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_vega_main: Sql Count: 23365, PostgreSQL Count: 23365
+2024-10-09 06:58:43 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-09 06:58:43 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risk_wave_main: Sql Count: 893815, PostgreSQL Count: 893815
+2024-10-09 06:58:43 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-09 06:58:43 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskmodelmap_main: Sql Count: 17, PostgreSQL Count: 17
+2024-10-09 06:58:43 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-09 06:58:43 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table riskpillar_main: Sql Count: 526, PostgreSQL Count: 526
+2024-10-09 06:58:43 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-09 06:58:43 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-09 06:58:43 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table risktransformationmatrix_main: Sql Count: 4604853, PostgreSQL Count: 4604853
+2024-10-09 06:58:43 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 06:58:43 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:58:43 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table trade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 06:58:43 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 06:58:43 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 06:58:43 - Counts match for table tradelabel_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 07:00:02 - Table names count do not match.
+2024-10-09 07:00:02 - All table names in PostgreSQL are present in Sql.
+2024-10-09 07:00:02 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-09 07:00:09 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-09 07:00:09 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table curveconfig_main: Sql Count: 9402, PostgreSQL Count: 9402
+2024-10-09 07:00:09 - Counts match for table curvemap: Sql Count: 491, PostgreSQL Count: 491
+2024-10-09 07:00:09 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-09 07:00:09 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table curveriskmap_main: Sql Count: 3123, PostgreSQL Count: 3123
+2024-10-09 07:00:09 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-09 07:00:09 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-09 07:00:09 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table fxrate_main: Sql Count: 12096, PostgreSQL Count: 12096
+2024-10-09 07:00:09 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table inflationstrategy_main: Sql Count: 83, PostgreSQL Count: 83
+2024-10-09 07:00:09 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-09 07:00:09 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 07:00:09 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_batchdate_main: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 07:00:09 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_extendedcategory_main: Sql Count: 707, PostgreSQL Count: 707
+2024-10-09 07:00:09 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 07:00:09 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_pltrade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 07:00:09 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svmrisk_main: Sql Count: 14796671, PostgreSQL Count: 14796671
+2024-10-09 07:00:09 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-09 07:00:09 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table load_svrisk_main: Sql Count: 11460807, PostgreSQL Count: 11460807
+2024-10-09 07:00:09 - Counts match for table permission1: Sql Count: 4986161, PostgreSQL Count: 4986161
+2024-10-09 07:00:09 - Counts match for table permission2: Sql Count: 5061069, PostgreSQL Count: 5061069
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktdelta_main: Sql Count: 902008, PostgreSQL Count: 902008
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdbktgamma_main: Sql Count: 470954, PostgreSQL Count: 470954
+2024-10-09 07:00:09 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-09 07:00:09 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwddelta_main: Sql Count: 907587, PostgreSQL Count: 907587
+2024-10-09 07:00:09 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-09 07:00:09 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_fwdstdbktdelta_main: Sql Count: 902025, PostgreSQL Count: 902025
+2024-10-09 07:00:09 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-09 07:00:09 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_parbktdelta_main: Sql Count: 906455, PostgreSQL Count: 906455
+2024-10-09 07:00:09 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-09 07:00:09 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pardelta_main: Sql Count: 912117, PostgreSQL Count: 912117
+2024-10-09 07:00:09 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-09 07:00:09 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pardeltaraw_main: Sql Count: 899452, PostgreSQL Count: 899452
+2024-10-09 07:00:09 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_pargamma_main: Sql Count: 606472, PostgreSQL Count: 606472
+2024-10-09 07:00:09 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_theta_main: Sql Count: 23358, PostgreSQL Count: 23358
+2024-10-09 07:00:09 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_vega_main: Sql Count: 23365, PostgreSQL Count: 23365
+2024-10-09 07:00:09 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-09 07:00:09 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risk_wave_main: Sql Count: 893815, PostgreSQL Count: 893815
+2024-10-09 07:00:09 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-09 07:00:09 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskmodelmap_main: Sql Count: 17, PostgreSQL Count: 17
+2024-10-09 07:00:09 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-09 07:00:09 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table riskpillar_main: Sql Count: 526, PostgreSQL Count: 526
+2024-10-09 07:00:09 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-09 07:00:09 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-09 07:00:09 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table risktransformationmatrix_main: Sql Count: 4604853, PostgreSQL Count: 4604853
+2024-10-09 07:00:09 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-09 07:00:09 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 07:00:09 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table trade_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-09 07:00:09 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-09 07:00:09 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-09 07:00:09 - Counts match for table tradelabel_main: Sql Count: 264906, PostgreSQL Count: 264906
+2024-10-10 13:49:38 - All constraints for curveconfig_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveconfig_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curvemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curvemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curvemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curvemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveriskmap_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveriskmap_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveriskmap_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for curveriskmap_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for dbcomparebatchjob matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - [
+  {
+    "TableName": "dbcomparejob",
+    "ColumnName": "batchjob",
+    "PG_Constraints": "PRIMARY KEY",
+    "SQL_Constraints": "FOREIGN KEY, PRIMARY KEY"
+  }
+]
+2024-10-10 13:49:38 - All constraints for dbcomparejob matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fixedriskpillar matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fixedriskpillar matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fixingrisk matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fixingrisk matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fixingrisk matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for fxrate_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for inflationstrategy_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for jobstatus matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_counterpartyrisk_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_batch matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_extendedcategory_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_pltrade_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_pltrade_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_pltrade_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_pltrade_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_pltrade_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svmrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for load_svrisk_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdbktgamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwddelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_fwdstdbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_parbktdelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardelta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pardeltaraw_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_pargamma_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_theta_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_vega_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risk_wave_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskexclusion matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskexclusion matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskexclusion matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_createjbdsensitivities matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for riskpillar_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risksourcemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risksourcemap matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for risktransformationmatrix_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for status matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for strategyexclusion matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for strategyexclusion matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for tenormapping_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for tenormapping_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for tenormapping_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for trade_ecm matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for trade_ecm_draft matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for trade_jbd matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - All constraints for trade_main matches between PostgreSQL and Sql.
+2024-10-10 13:49:38 - CSV file created at Result_csv/RiskReporterLite_Constraints_Validation.csv
+2024-10-10 02:16:12 - Table names count do not match.
+2024-10-10 02:16:12 - Table names in PostgreSQL not found in Sql:
+[
+  "load_svmrisk_main",
+  "riskpillar_main",
+  "tradelabel_main"
+]
+2024-10-10 02:16:12 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-10 02:16:12 - All columns in curveconfig_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveconfig_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveconfig_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveconfig_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveconfig_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveconfig_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - Columns in curveconfig_main table in PostgreSQL not found in Sql:
+[
+  "id"
+]
+2024-10-10 02:16:12 - All columns in curveconfig_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curvemap table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curvemap in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveriskmap table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveriskmap in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveriskmap_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveriskmap_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveriskmap_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveriskmap_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveriskmap_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveriskmap_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in curveriskmap_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in curveriskmap_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in dbcomparebatchjob table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in dbcomparebatchjob in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in dbcomparejob table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in dbcomparejob in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fixedriskpillar table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fixedriskpillar in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fixingrisk table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fixingrisk in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_ecm_batch table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_ecm_batch in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in fxrate_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in fxrate_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in inflationstrategy_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in inflationstrategy_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in inflationstrategy_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in inflationstrategy_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in jobstatus table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in jobstatus in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm_batch table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm_batch in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_batchdate_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_batchdate_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_counterpartyrisk_ecm_batch table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_counterpartyrisk_ecm_batch in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm_batch table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm_batch in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_extendedcategory_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_pltrade_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_pltrade_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_pltrade_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_pltrade_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_pltrade_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_pltrade_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_pltrade_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_pltrade_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_pltrade_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_pltrade_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svmrisk_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svmrisk_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svmrisk_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svmrisk_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svmrisk_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svmrisk_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svmrisk_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svmrisk_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svrisk_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svrisk_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svrisk_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svrisk_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svrisk_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svrisk_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svrisk_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svrisk_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in load_svrisk_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in load_svrisk_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in permission1 table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - Columns in permission1 in Sql not found in PostgreSQL:
+[
+  "id"
+]
+2024-10-10 02:16:12 - All columns in permission2 table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - Columns in permission2 in Sql not found in PostgreSQL:
+[
+  "id"
+]
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktdelta_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdbktgamma_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwddelta_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_fwdstdbktdelta_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - Columns in risk_fwdstdbktdelta_main table in PostgreSQL not found in Sql:
+[
+  "u24"
+]
+2024-10-10 02:16:12 - Columns in risk_fwdstdbktdelta_main in Sql not found in PostgreSQL:
+[
+  "h27"
+]
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_parbktdelta_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardelta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardelta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardelta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardelta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardelta_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardelta_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pardeltaraw_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pargamma_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pargamma_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_pargamma_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_pargamma_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_theta_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_theta_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_theta_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_theta_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_vega_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_vega_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_vega_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_vega_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_wave_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_wave_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_wave_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_wave_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risk_wave_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risk_wave_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskexclusion table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskexclusion in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskmodelmap_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskmodelmap_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskmodelmap_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskmodelmap_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskmodelmap_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskmodelmap_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskmodelmap_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskmodelmap_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskmodelmap_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskmodelmap_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskpillar_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskpillar_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskpillar_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskpillar_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskpillar_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskpillar_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in riskpillar_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in riskpillar_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risksourcemap table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risksourcemap in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in risktransformationmatrix_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in status table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in status in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in strategyexclusion table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in strategyexclusion in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tenormapping_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tenormapping_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tenormapping_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tenormapping_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tenormapping_main table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tenormapping_main in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in trade_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in trade_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in trade_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in trade_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in trade_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in trade_jbd in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tradelabel_createjbdsensitivities table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tradelabel_createjbdsensitivities in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tradelabel_ecm table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tradelabel_ecm in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tradelabel_ecm_draft table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tradelabel_ecm_draft in Sql are present in PostgreSQL.
+2024-10-10 02:16:12 - All columns in tradelabel_jbd table in PostgreSQL are present in Sql.
+2024-10-10 02:16:12 - All columns in tradelabel_jbd in Sql are present in PostgreSQL.
+2024-10-11 17:51:41 - Table names count do not match.
+2024-10-11 17:51:41 - Table names in PostgreSQL not found in Sql:
+[
+  "fxrate_main",
+  "load_extendedcategory_main",
+  "load_pltrade_main",
+  "load_svrisk_main"
+]
+2024-10-11 17:51:41 - Table names in Sql not found in PostgreSQL:
+[
+  "curveconfig_main_20240925",
+  "curvemap_bak_20240920",
+  "curvemap_main_20240925",
+  "curvemap_old",
+  "curveriskmap_main_20240925",
+  "fxrate_main_20240925",
+  "load_pltrade_main_20240925",
+  "load_svmrisk_main_20240925",
+  "load_svrisk_main_20240925",
+  "risk_fwdbktdelta_main_20240925",
+  "risk_fwdbktgamma_main_20240925",
+  "risk_fwddelta_main_20240925",
+  "risk_fwdstdbktdelta_main_20240925",
+  "risk_parbktdelta_main_20240925",
+  "risk_pardelta_main_20240925",
+  "risk_pardeltaraw_main_20240925",
+  "risk_pargamma_main_20240925",
+  "risk_theta_main_20240925",
+  "risk_vega_main_20240925",
+  "risk_wave_main_20240925",
+  "riskmodelmap_main_20240925",
+  "riskpillar_main_20240925",
+  "risksourcemap_main_20240925",
+  "risktransformationmatrix_main_20240925",
+  "trade_main_20240925"
+]
+2024-10-11 17:51:49 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-11 17:51:49 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table curveconfig_main: Sql Count: 9404, PostgreSQL Count: 9588
+2024-10-11 17:51:49 - Counts match for table curvemap: Sql Count: 474, PostgreSQL Count: 474
+2024-10-11 17:51:49 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-11 17:51:49 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table curveriskmap_main: Sql Count: 3081, PostgreSQL Count: 3062
+2024-10-11 17:51:49 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-11 17:51:49 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-11 17:51:49 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-11 17:51:49 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-11 17:51:49 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table load_batchdate_main: Sql Count: 0, PostgreSQL Count: 1
+2024-10-11 17:51:49 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-11 17:51:49 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:51:49 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-11 17:51:49 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table permission1: Sql Count: 5017065, PostgreSQL Count: 5136091
+2024-10-11 17:51:49 - Counts do not match for table permission2: Sql Count: 5017065, PostgreSQL Count: 5136091
+2024-10-11 17:51:49 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-11 17:51:49 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table risk_fwdbktgamma_main: Sql Count: 447193, PostgreSQL Count: 439710
+2024-10-11 17:51:49 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-11 17:51:49 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-11 17:51:49 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table risk_fwdstdbktdelta_main: Sql Count: 837680, PostgreSQL Count: 869451
+2024-10-11 17:51:49 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-11 17:51:49 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table risk_parbktdelta_main: Sql Count: 841236, PostgreSQL Count: 873858
+2024-10-11 17:51:49 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-11 17:51:49 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-11 17:51:49 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-11 17:51:49 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-11 17:51:49 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table riskmodelmap_main: Sql Count: 0, PostgreSQL Count: 2
+2024-10-11 17:51:49 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-11 17:51:49 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-11 17:51:49 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-11 17:51:49 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts do not match for table risktransformationmatrix_main: Sql Count: 4539888, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-11 17:51:49 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:51:49 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:51:49 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:51:49 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:12 - Table names count do not match.
+2024-10-11 17:53:12 - Table names in PostgreSQL not found in Sql:
+[
+  "fxrate_main",
+  "load_extendedcategory_main",
+  "load_pltrade_main",
+  "load_svrisk_main"
+]
+2024-10-11 17:53:12 - Table names in Sql not found in PostgreSQL:
+[
+  "curvemap_old"
+]
+2024-10-11 17:53:16 - Counts match for table curveconfig_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table curveconfig_ecm_draft: Sql Count: 9588, PostgreSQL Count: 9588
+2024-10-11 17:53:16 - Counts match for table curveconfig_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table curveconfig_main: Sql Count: 9404, PostgreSQL Count: 9588
+2024-10-11 17:53:16 - Counts match for table curvemap: Sql Count: 474, PostgreSQL Count: 474
+2024-10-11 17:53:16 - Counts match for table curveriskmap: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table curveriskmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table curveriskmap_ecm_draft: Sql Count: 3784, PostgreSQL Count: 3784
+2024-10-11 17:53:16 - Counts match for table curveriskmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table curveriskmap_main: Sql Count: 3081, PostgreSQL Count: 3062
+2024-10-11 17:53:16 - Counts match for table dbcomparebatchjob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table dbcomparejob: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table fixedriskpillar: Sql Count: 36, PostgreSQL Count: 36
+2024-10-11 17:53:16 - Counts match for table fixingrisk: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table fxrate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table fxrate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table fxrate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table fxrate_ecm_draft: Sql Count: 12081, PostgreSQL Count: 12081
+2024-10-11 17:53:16 - Counts match for table fxrate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table inflationstrategy_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table inflationstrategy_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table jobstatus: Sql Count: 4, PostgreSQL Count: 4
+2024-10-11 17:53:16 - Counts match for table load_batchdate_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_batchdate_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_batchdate_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_batchdate_ecm_draft: Sql Count: 1, PostgreSQL Count: 1
+2024-10-11 17:53:16 - Counts match for table load_batchdate_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table load_batchdate_main: Sql Count: 0, PostgreSQL Count: 1
+2024-10-11 17:53:16 - Counts match for table load_counterpartyrisk_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory_ecm_batch: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory_ecm_draft: Sql Count: 703, PostgreSQL Count: 703
+2024-10-11 17:53:16 - Counts match for table load_extendedcategory_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_pltrade_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_pltrade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_pltrade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:53:16 - Counts match for table load_pltrade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svmrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svmrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svmrisk_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svmrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svrisk_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svrisk_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table load_svrisk_ecm_draft: Sql Count: 1171634, PostgreSQL Count: 1171634
+2024-10-11 17:53:16 - Counts match for table load_svrisk_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table permission1: Sql Count: 5017065, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table permission2: Sql Count: 5017065, PostgreSQL Count: 5136091
+2024-10-11 17:53:16 - Counts match for table risk_fwdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-11 17:53:16 - Counts match for table risk_fwdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwdbktgamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwdbktgamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table risk_fwdbktgamma_main: Sql Count: 447193, PostgreSQL Count: 439710
+2024-10-11 17:53:16 - Counts match for table risk_fwddelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwddelta_ecm_draft: Sql Count: 40464, PostgreSQL Count: 40464
+2024-10-11 17:53:16 - Counts match for table risk_fwddelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwdstdbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_fwdstdbktdelta_ecm_draft: Sql Count: 40423, PostgreSQL Count: 40423
+2024-10-11 17:53:16 - Counts match for table risk_fwdstdbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table risk_fwdstdbktdelta_main: Sql Count: 837680, PostgreSQL Count: 869451
+2024-10-11 17:53:16 - Counts match for table risk_parbktdelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_parbktdelta_ecm_draft: Sql Count: 40458, PostgreSQL Count: 40458
+2024-10-11 17:53:16 - Counts match for table risk_parbktdelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table risk_parbktdelta_main: Sql Count: 841236, PostgreSQL Count: 873858
+2024-10-11 17:53:16 - Counts match for table risk_pardelta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_pardelta_ecm_draft: Sql Count: 40501, PostgreSQL Count: 40501
+2024-10-11 17:53:16 - Counts match for table risk_pardelta_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_pardeltaraw_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_pardeltaraw_ecm_draft: Sql Count: 40126, PostgreSQL Count: 40126
+2024-10-11 17:53:16 - Counts match for table risk_pardeltaraw_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_pargamma_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_pargamma_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_theta_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_theta_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_vega_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_vega_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_wave_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risk_wave_ecm_draft: Sql Count: 40085, PostgreSQL Count: 40085
+2024-10-11 17:53:16 - Counts match for table risk_wave_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskmodelmap_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskmodelmap_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskmodelmap_ecm_draft: Sql Count: 2, PostgreSQL Count: 2
+2024-10-11 17:53:16 - Counts match for table riskmodelmap_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table riskmodelmap_main: Sql Count: 0, PostgreSQL Count: 2
+2024-10-11 17:53:16 - Counts match for table riskpillar_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskpillar_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table riskpillar_ecm_draft: Sql Count: 517, PostgreSQL Count: 517
+2024-10-11 17:53:16 - Counts match for table riskpillar_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risksourcemap: Sql Count: 5, PostgreSQL Count: 5
+2024-10-11 17:53:16 - Counts match for table risktransformationmatrix_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table risktransformationmatrix_ecm_draft: Sql Count: 4557378, PostgreSQL Count: 4557378
+2024-10-11 17:53:16 - Counts match for table risktransformationmatrix_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts do not match for table risktransformationmatrix_main: Sql Count: 4539888, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table status: Sql Count: 1, PostgreSQL Count: 1
+2024-10-11 17:53:16 - Counts match for table strategyexclusion: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tenormapping_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tenormapping_ecm_draft: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tenormapping_main: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table trade_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table trade_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:53:16 - Counts match for table trade_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tradelabel_createjbdsensitivities: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tradelabel_ecm: Sql Count: 0, PostgreSQL Count: 0
+2024-10-11 17:53:16 - Counts match for table tradelabel_ecm_draft: Sql Count: 22338, PostgreSQL Count: 22338
+2024-10-11 17:53:16 - Counts match for table tradelabel_jbd: Sql Count: 0, PostgreSQL Count: 0
+2024-10-14 14:39:33 - Comparing data for table status...
+2024-10-14 14:39:34 - timeDifference not matches : 
+29114564
+2024-10-14 14:39:34 - Data for table status does not match.
+2024-10-14 14:39:34 - Differences:
+[
+  {
+    "index": 0,
+    "differences": [
+      {
+        "column": "changetime",
+        "pgValue": "2024-10-14T00:55:21.323Z",
+        "SqlValue": "2024-10-14T09:00:35.887Z"
+      }
+    ]
+  }
+]
+2024-10-14 14:40:38 - Comparing data for table status...
+2024-10-14 14:40:39 - Data for table status does not match.
+2024-10-14 14:40:39 - Differences:
+[
+  {
+    "index": 0,
+    "differences": [
+      {
+        "column": "changetime",
+        "normalizedPgValue": "2024-10-14T00:55:21.323Z",
+        "normalizedSqlValue": "2024-10-14T09:00:35.887Z"
+      }
+    ]
+  }
+]

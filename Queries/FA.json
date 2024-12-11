@@ -1,0 +1,7 @@
+[
+  {
+    "tableName": "tradepnl_2024-09-01 to 2024-09-17",
+    "pgQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-09-01' and '2024-09-17' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;",
+    "sfQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-09-01' and '2024-09-17' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;"
+  }
+]

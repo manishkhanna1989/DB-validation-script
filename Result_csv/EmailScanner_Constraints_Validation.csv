@@ -1,0 +1,12 @@
+TableName,ColumnName,PG Constraints,SQL Constraints,Status
+__efmigrationshistory,migrationid,PRIMARY KEY,PRIMARY KEY,Pass
+approvalrules,id,PRIMARY KEY,PRIMARY KEY,Pass
+attachments,emailmessageid,,FOREIGN KEY,Fail
+attachments,id,PRIMARY KEY,PRIMARY KEY,Pass
+emaildepartment,id,PRIMARY KEY,PRIMARY KEY,Pass
+emailgroup,id,PRIMARY KEY,PRIMARY KEY,Pass
+emailmessage,id,PRIMARY KEY,PRIMARY KEY,Pass
+emailmessageemailgroup,emailgroupid,PRIMARY KEY,"FOREIGN KEY, PRIMARY KEY",Fail
+emailmessageemailgroup,emailmessageid,PRIMARY KEY,"FOREIGN KEY, PRIMARY KEY",Fail
+externalparty,id,PRIMARY KEY,PRIMARY KEY,Pass
+ruleviolation,id,PRIMARY KEY,PRIMARY KEY,Pass

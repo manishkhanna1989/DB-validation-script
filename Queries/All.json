@@ -3,5 +3,172 @@
         "tableName": "H_FB_EVENT_FORM",
         "pgQuery": "SELECT * FROM PUBLIC.H_FB_EVENT_FORM ORDER BY form_id, event_form_id desc LIMIT 1000;",
         "sfQuery": "SELECT * FROM DB_GU_SOURCE.PUBLIC.H_FB_EVENT_FORM ORDER BY form_id, event_form_id desc LIMIT 1000;"
+    },
+    {
+        "tableName": "fxratesusdmarketdataset",
+        "pgQuery": "select * from dbo.fxratesusdmarketdataset where date <= '2024-06-12 00:00:00.000';",
+        "sfQuery": "select * from dbo.fxratesusdmarketdataset where date <= '2024-06-12 00:00:00.000';"
+    },
+    {
+        "tableName": "adjustment",
+        "pgQuery": "select * from dbo.adjustment order by id desc limit 1000000 ;",
+        "sfQuery": "select top 1000000 id, \"type\", bhid, fund, book, strategy, amount, ccy, adjustmentdate, fxdate, fxrate, closedate, \"comment\", createdat, updatedat, username, nb, status, LOWER(uniqueid) as uniqueid, isautomaticallybooked, fundinfoid from dbo.adjustment order by id desc ;"
+    },
+    {
+        "tableName": "FUNDRAISER_PAGE",
+        "pgQuery": "SELECT * FROM PUBLIC.FUNDRAISER_PAGE ORDER BY \"fundraiser_id\" desc LIMIT 10;",
+        "sfQuery": "SELECT * FROM DB_GU_SOURCE.PUBLIC.FUNDRAISER_PAGE ORDER BY \"fundraiser_id\" desc LIMIT 10;"
+    },
+    {
+        "tableName": "AdjustmentEvent",
+        "pgQuery": "SELECT * FROM dbo.AdjustmentEvent order by id DESC",
+        "sfQuery": "SELECT * FROM dbo.AdjustmentEvent order by id DESC"
+    },
+    {   
+        "tableName": "tradepnl_2024-01-10",
+        "pgQuery": " SELECT cobdate, bhid, book, fund, LEFT(Strategy, POSITION(':' IN Strategy)) || TRIM(SUBSTRING(Strategy FROM POSITION(':' IN Strategy) + 1)) AS strategy, locationid, investmentmanagerid, pnldtd, pnlmtd, pnlytd, financedtd, financemtd, financeytd, commissiondtd, commissionmtd, commissionytd, adjustmentdtd, adjustmentmtd, adjustmentytd, allocatedbooknamecapital, dtdreturn, mtdreturn, ytdreturn FROM dbo.tradepnl WHERE cobdate = DATE '${date}' ORDER BY BHID, Book, Fund, strategy OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": " SELECT cobdate, bhid, book, fund, LEFT(Strategy, CHARINDEX(':', Strategy)) + TRIM(SUBSTRING(Strategy, CHARINDEX(':', Strategy) + 1, LEN(Strategy))) AS Strategy, locationid, investmentmanagerid, pnldtd, pnlmtd, pnlytd, financedtd, financemtd, financeytd, commissiondtd, commissionmtd, commissionytd, adjustmentdtd, adjustmentmtd, adjustmentytd, allocatedbooknamecapital, dtdreturn, mtdreturn, ytdreturn FROM dbo.tradepnl WHERE cobdate = CAST('${date}' AS DATE) ORDER BY BHID, Book, Fund, Strategy  OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "date":"2024-01-10",
+          "offset": 0,
+          "batchSize": 1000000,
+          "totalRecords":12500000
+        }
+    },
+    {
+        "tableName": "adjustmentevent",
+        "pgQuery": "select * from  dbo.adjustmentevent order by id desc;",
+        "sfQuery": "select * from  dbo.adjustmentevent order by id desc;"
+    },
+    {
+        "tableName": "fundproperties",
+        "pgQuery": "select * from  dbo.fundproperties order by fund desc, startdate desc;",
+        "sfQuery": "select * from  dbo.fundproperties order by fund desc, startdate desc;"
+    },
+    {
+        "tableName": "fxratesusdmarketdataset",
+        "pgQuery": "select * from  dbo.fxratesusdmarketdataset order by mktdataset desc, ccy desc, date desc;",
+        "sfQuery": "select * from  dbo.fxratesusdmarketdataset where \"date\" <= '2024-08-29 00:00:00.000' order by mktdataset desc, ccy desc, date desc;"
+    },
+    {
+        "tableName": "TradeDetails_2024-08-01 to 2024-08-27",
+        "pgQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-08-01' AND '2024-08-27' AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;",
+        "sfQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-08-01' AND '2024-08-27'  AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;"
+      },
+      {
+        "tableName": "tradepnl_2024-08-01 to 2024-08-27",
+        "pgQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-08-01' and '2024-08-27' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;",
+        "sfQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-08-01' and '2024-08-27' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;"
+      },
+      {
+        "tableName": "Extractspnl_2024-08-01 to 2024-08-28",
+        "pgQuery": "SELECT c.cobdate, c.fund, c.book, sum(c.pnldtd) AS pnldtd, sum(c.pnlmtd) AS pnlmtd, sum(c.financedtd) AS financedtd, sum(c.financemtd) AS financemtd, sum(c.commissiondtd) AS commissiondtd, sum(c.commissionmtd) AS commissionmtd FROM dbo.extractspnl c where c.cobdate BETWEEN '2024-08-01' AND '2024-08-28'  and c.book IS not NULL GROUP BY c.cobdate, c.fund, c.book ORDER BY CobDate DESC, fund DESC, Book DESC, pnldtd desc, pnlmtd desc, financedtd desc, financemtd desc, commissionmtd desc, commissiondtd desc;",
+        "sfQuery": "SELECT c.cobdate, c.fund, c.book, sum(c.pnldtd) AS pnldtd, sum(c.pnlmtd) AS pnlmtd, sum(c.financedtd) AS financedtd, sum(c.financemtd) AS financemtd, sum(c.commissiondtd) AS commissiondtd, sum(c.commissionmtd) AS commissionmtd FROM dbo.extractspnl c where c.cobdate BETWEEN '2024-08-01' AND '2024-08-28'  and c.book IS not NULL GROUP BY c.cobdate, c.fund, c.book ORDER BY CobDate DESC, fund DESC, Book DESC, pnldtd desc, pnlmtd desc, financedtd desc, financemtd desc, commissionmtd desc, commissiondtd desc;"
+      },
+      {
+        "tableName": "TradeReporter_Constraints",
+        "pgQuery":  "SELECT tc.table_name, kcu.column_name, tc.constraint_name, tc.constraint_type FROM information_schema.table_constraints AS tc JOIN information_schema.key_column_usage AS kcu ON tc.constraint_name = kcu.constraint_name AND tc.table_name = kcu.table_name and tc.table_name not like '%_202%' WHERE tc.table_schema in ('dbo','dba') ORDER BY table_name, column_name, constraint_name, tc.constraint_type;",
+        "sfQuery": "SELECT LOWER(tc.table_name) as table_name, LOWER(kcu.column_name) as column_name, LOWER(tc.constraint_name) as constraint_name, tc.constraint_type FROM information_schema.table_constraints AS tc JOIN information_schema.key_column_usage AS kcu ON tc.constraint_name = kcu.constraint_name AND tc.table_name = kcu.table_name and tc.table_name not like '%_202%' WHERE tc.table_schema in ('dbo','dba') ORDER BY tc.table_name, kcu.column_name, tc.constraint_name, tc.constraint_type;"
+    },
+    {
+        "tableName": "Extractspnl_2024-09-01 to 2024-09-17",
+        "pgQuery": "SELECT c.cobdate, c.fund, c.book, sum(c.pnldtd) AS pnldtd, sum(c.pnlmtd) AS pnlmtd, sum(c.financedtd) AS financedtd, sum(c.financemtd) AS financemtd, sum(c.commissiondtd) AS commissiondtd, sum(c.commissionmtd) AS commissionmtd FROM dbo.extractspnl c where c.cobdate BETWEEN '2024-09-01' AND '2024-09-17'  and c.book IS not NULL GROUP BY c.cobdate, c.fund, c.book ORDER BY CobDate DESC, fund DESC, Book DESC, pnldtd desc, pnlmtd desc, financedtd desc, financemtd desc, commissionmtd desc, commissiondtd desc;",
+        "sfQuery": "SELECT c.cobdate, c.fund, c.book, sum(c.pnldtd) AS pnldtd, sum(c.pnlmtd) AS pnlmtd, sum(c.financedtd) AS financedtd, sum(c.financemtd) AS financemtd, sum(c.commissiondtd) AS commissiondtd, sum(c.commissionmtd) AS commissionmtd FROM dbo.extractspnl c where c.cobdate BETWEEN '2024-09-01' AND '2024-09-17'  and c.book IS not NULL GROUP BY c.cobdate, c.fund, c.book ORDER BY CobDate DESC, fund DESC, Book DESC, pnldtd desc, pnlmtd desc, financedtd desc, financemtd desc, commissionmtd desc, commissiondtd desc;"
+      },
+    {
+        "tableName": "TradeDetails_2024-08-01 to 2024-08-31",
+        "pgQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-08-01' AND '2024-08-31' AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;",
+        "sfQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-08-01' AND '2024-08-31'  AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;"
+      },
+      {
+        "tableName": "tradepnl_2024-08-01 to 2024-08-31",
+        "pgQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-08-01' and '2024-08-31' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;",
+        "sfQuery": "select c.cobdate, c.fund, c.book, sum(c.pnldtd) as pnldtd, sum(c.pnlmtd) as pnlmtd, sum(c.pnlytd) as pnlytd, sum(c.financedtd) as financedtd, sum(c.financemtd) as financemtd, sum(c.financeytd) as financeytd, sum(c.commissiondtd) as commissiondtd, sum(c.commissionmtd) as commissionmtd, sum(c.commissionytd) as commissionytd, sum(c.adjustmentdtd) as adjustmentdtd,sum(c.adjustmentmtd) as adjustmentmtd, sum(c.adjustmentytd) as adjustmentytd from dbo.tradepnl c where c.cobdate between '2024-08-01' and '2024-08-31' and c.book is not null group by c.cobdate, c.fund, c.book order by CobDate desc, Fund desc, Book desc, pnldtd desc, pnlytd desc, financeytd desc ;"
+      },
+      {
+        "tableName": "TradeDetails_2024-09-01 to 2024-09-17",
+        "pgQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-09-01' AND '2024-09-17' AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;",
+        "sfQuery": "SELECT CobDate, FUND, Book, tradegroup, COUNT(DISTINCT BHID) as cnt FROM dbo.TradeDetails WHERE cobdate BETWEEN '2024-09-01' AND '2024-09-17'  AND Book IS NOT NULL GROUP BY CobDate, FUND, Book, tradegroup ORDER BY CobDate DESC, Fund DESC, Book DESC, tradegroup DESC;"
+      },
+      {
+        "tableName": "adjustment_2024-08-28 to 2024-09-17",
+        "pgQuery": "select * from dbo.adjustment where updatedat BETWEEN '2024-08-28 03:19:55.607' and '2024-09-17 06:10:33.220' order by id desc;",
+        "sfQuery": "SELECT id, \"type\", bhid, fund, book, strategy, amount, ccy, adjustmentdate, fxdate, fxrate, closedate, \"comment\", createdat, updatedat, username, nb, status, lower(uniqueid) as uniqueid, isautomaticallybooked, fundinfoid FROM dbo.adjustment where updatedat >= '2024-08-28 03:19:55.607' order by id desc;"
+      },
+      {
+        "tableName": "adjustment",
+        "pgQuery": "select * from dbo.adjustment order by id desc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.adjustment order by id desc  OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 500000,
+          "totalRecords": 30346274
+        }
+      },
+      {
+        "tableName": "symbolscob",
+        "pgQuery": "select * from dbo.symbolscob order by bhid asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.symbolscob order by bhid asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 50000,
+          "totalRecords": 2112091
+        }
+      },
+      {
+        "tableName": "load_permission",
+        "pgQuery": "select * from dbo.load_permission order by id desc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.load_permission order by id desc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 50000,
+          "totalRecords": 5045389
+        }
+      },
+      {
+        "tableName": "uploadhistory",
+        "pgQuery": "select * from dbo.uploadhistory order by id desc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.uploadhistory order by id desc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 50000,
+          "totalRecords": 301117
+        }
+      },
+      {
+        "tableName": "permission1",
+        "pgQuery": "select * from dbo.permission1 order by id desc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.permission1 order by id desc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 500000,
+          "totalRecords": 5126435
+        }
+      },
+      {
+        "tableName": "permission2",
+        "pgQuery": "select * from dbo.permission2 order by id desc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+        "sfQuery": "select * from dbo.permission2 order by id desc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+        "parameters": {
+          "offset": 0,
+          "batchSize": 500000,
+          "totalRecords": 5139605
+        }
+      },
+      {
+        "tableName": "jobstatus",
+        "pgQuery": "SELECT REPLACE(jobname, '_', '') AS jobname, isactive ,runfrequency ,runwindow ,lastupdate ,status FROM dbo.jobstatus ORDER BY jobname asc;",
+        "sfQuery": "SELECT REPLACE(jobname, '_', '') AS jobname, isactive ,runfrequency ,runwindow ,lastupdate ,status FROM dbo.jobstatus ORDER BY jobname asc;"
+    },
+    {
+        "tableName": "Load_GetTraderPreference",
+        "pgQuery": "select * from dbo.Load_GetTraderPreference order by BHID asc;",
+        "sfQuery": "select * from dbo.Load_GetTraderPreference order by BHID asc;"
+    },
+    {
+        "tableName": "BatchInfo",
+        "pgQuery": "SELECT REPLACE(jobname, '_', '') AS jobname, REPLACE(batchname, '_', '') AS batchname, warntime, autosysjobname, isactive FROM dbo.BatchInfo ORDER BY jobname asc,batchname asc;",
+        "sfQuery": "SELECT REPLACE(jobname, '_', '') AS jobname, REPLACE(batchname, '_', '') AS batchname, warntime, autosysjobname, isactive FROM dbo.BatchInfo ORDER BY jobname asc,batchname asc;"
     }
+    
 ]

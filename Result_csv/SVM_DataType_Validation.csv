@@ -1,0 +1,619 @@
+TableName,ColumnName,SQL Data Type,PG Data Type,Status
+archivedate,asof,datetime,timestamp without time zone,Pass
+batchinfo,autosysjobname,varchar,character varying,Pass
+batchinfo,batchname,varchar,character varying,Pass
+batchinfo,isactive,bit,numeric,Fail
+batchinfo,jobname,varchar,character varying,Pass
+batchinfo,warntime,datetime,timestamp without time zone,Pass
+bhidpreferenceoverride,bhid,int,integer,Pass
+bhidpreferenceoverride,riskdefinitionid,int,integer,Pass
+bhids_tr_svm_intraday,bhid,int,integer,Pass
+bhids_tr_svm_intraday,isecm,bit,numeric,Fail
+calctypedaytype,calctype,int,integer,Pass
+calctypedaytype,daytype,varchar,character varying,Pass
+capletspread,calculatedat,datetime,timestamp without time zone,Pass
+capletspread,date,datetime,timestamp without time zone,Pass
+capletspread,definitionid,int,integer,Pass
+capletspread,id,int,integer,Pass
+capletspreaddata,expiry,varchar,character varying,Pass
+capletspreaddata,id,int,integer,Pass
+capletspreaddata,sequence,int,integer,Pass
+capletspreaddata,value,float,double precision,Pass
+capletspreaddefinition,currency,varchar,character varying,Pass
+capletspreaddefinition,definitionid,int,integer,Pass
+capletspreaddefinition,term,varchar,character varying,Pass
+capvol,calculatedat,datetime,timestamp without time zone,Pass
+capvol,date,datetime,timestamp without time zone,Pass
+capvol,definitionid,int,integer,Pass
+capvol,id,int,integer,Pass
+capvoldata,id,int,integer,Pass
+capvoldata,sequence,int,integer,Pass
+capvoldata,strike,float,double precision,Pass
+capvoldata,tenor,varchar,character varying,Pass
+capvoldata,value,float,double precision,Pass
+capvoldefinition,currency,varchar,character varying,Pass
+capvoldefinition,definitionid,int,integer,Pass
+capvoldefinition,term,varchar,character varying,Pass
+capvoldefinition,type,varchar,character varying,Pass
+curvedefinition,curveccy,varchar,character varying,Pass
+curvedefinition,curvedefinitionid,int,integer,Pass
+curvedefinition,curverevallabel,varchar,character varying,Pass
+dbcomparebatchjob,active,bit,numeric,Fail
+dbcomparebatchjob,batchjob,varchar,character varying,Pass
+dbcomparebatchjob,mailok,bit,numeric,Fail
+dbcomparebatchjob,mailto,varchar,character varying,Pass
+dbcomparebatchjob,primarydatabase,varchar,character varying,Pass
+dbcomparebatchjob,primaryserver,varchar,character varying,Pass
+dbcomparebatchjob,runtime,varchar,character varying,Pass
+dbcomparebatchjob,secondarydatabases,varchar,character varying,Pass
+dbcomparebatchjob,secondaryservers,varchar,character varying,Pass
+dbcomparebatchjob,test,bit,numeric,Fail
+dbcomparejob,absthreshold,float,double precision,Pass
+dbcomparejob,asof,varchar,character varying,Pass
+dbcomparejob,batchjob,varchar,character varying,Pass
+dbcomparejob,ignorecols,varchar,character varying,Pass
+dbcomparejob,job,varchar,character varying,Pass
+dbcomparejob,keycols,varchar,character varying,Pass
+dbcomparejob,primarysql,varchar,character varying,Pass
+dbcomparejob,primarytable,varchar,character varying,Pass
+dbcomparejob,relthreshold,float,double precision,Pass
+dbcomparejob,secondarysql,varchar,character varying,Pass
+dbcomparejob,secondarytable,varchar,character varying,Pass
+futuresinfo,baseinstrument,varchar,character varying,Pass
+futuresinfo,is90daysbb,bit,numeric,Fail
+futuresinfo,lognormalbpsshift,float,double precision,Pass
+futuresinfo,margined,bit,numeric,Fail
+futuresinfo,murexinstrument,varchar,character varying,Pass
+futuresinfo,restrictdelivery,bit,numeric,Fail
+futuresinfo,tenor,float,double precision,Pass
+futuresinfo,useconvexityadj,bit,numeric,Fail
+futuresinfo_kjm,baseinstrument,varchar,character varying,Pass
+futuresinfo_kjm,is90daysbb,bit,boolean,Pass
+futuresinfo_kjm,lognormalbpsshift,float,double precision,Pass
+futuresinfo_kjm,margined,bit,boolean,Pass
+futuresinfo_kjm,murexinstrument,varchar,character varying,Pass
+futuresinfo_kjm,restrictdelivery,bit,boolean,Pass
+futuresinfo_kjm,tenor,float,double precision,Pass
+futuresinfo_kjm,useconvexityadj,bit,boolean,Pass
+futuressnapparams,isfwd,bit,numeric,Fail
+futuressnapparams,israte,bit,numeric,Fail
+futuressnapparams,key1,varchar,character varying,Pass
+futuressnapparams,key2,varchar,character varying,Pass
+futuressnapparams,numofkeys,int,integer,Pass
+futuressnapparams,optcode,char,character,Pass
+futuressnapparams,pricecolname,varchar,character varying,Pass
+futuressnapparams,snapcategory,char,character,Pass
+futuressnapparams,snapclass,varchar,character varying,Pass
+futuressnapparams,snaplocation,varchar,character varying,Pass
+futuressnapparams,snapqualifier,varchar,character varying,Pass
+futuressnapparams,snaptime,int,integer,Pass
+futuressnapparams,val1,varchar,character varying,Pass
+futuressnapparams,val2,varchar,character varying,Pass
+jobstatus,isactive,bit,numeric,Fail
+jobstatus,jobname,varchar,character varying,Pass
+jobstatus,lastupdate,datetime,timestamp without time zone,Pass
+jobstatus,runfrequency,int,integer,Pass
+jobstatus,runwindow,varchar,character varying,Pass
+jobstatus,status,varchar,character varying,Pass
+load_capletspread,calculatedat,datetime,timestamp without time zone,Pass
+load_capletspread,currency,varchar,character varying,Pass
+load_capletspread,date,datetime,timestamp without time zone,Pass
+load_capletspread,expiry,varchar,character varying,Pass
+load_capletspread,loadid,int,integer,Pass
+load_capletspread,sequence,int,integer,Pass
+load_capletspread,term,varchar,character varying,Pass
+load_capletspread,value,float,double precision,Pass
+load_capvol,calculatedat,datetime,timestamp without time zone,Pass
+load_capvol,currency,varchar,character varying,Pass
+load_capvol,date,datetime,timestamp without time zone,Pass
+load_capvol,loadid,int,integer,Pass
+load_capvol,sequence,int,integer,Pass
+load_capvol,strike,float,double precision,Pass
+load_capvol,tenor,varchar,character varying,Pass
+load_capvol,term,varchar,character varying,Pass
+load_capvol,type,varchar,character varying,Pass
+load_capvol,value,float,double precision,Pass
+load_cashflows,asof,datetime,timestamp without time zone,Pass
+load_cashflows,bhid,int,integer,Pass
+load_cashflows,calculatedat,datetime,timestamp without time zone,Pass
+load_cashflows,cashflow,float,double precision,Pass
+load_cashflows,curveinterpolation,varchar,character varying,Pass
+load_cashflows,curvescenariotype,varchar,character varying,Pass
+load_cashflows,dcfrac,float,double precision,Pass
+load_cashflows,df,float,double precision,Pass
+load_cashflows,endaccrualdate,datetime,timestamp without time zone,Pass
+load_cashflows,instrument,varchar,character varying,Pass
+load_cashflows,instrumentccy,varchar,character varying,Pass
+load_cashflows,isao,int,integer,Pass
+load_cashflows,loadcashflowsid,bigint,bigint,Pass
+load_cashflows,loadid,int,integer,Pass
+load_cashflows,nbinternal,int,integer,Pass
+load_cashflows,paymentccy,varchar,character varying,Pass
+load_cashflows,paymentdate,datetime,timestamp without time zone,Pass
+load_cashflows,paymenttype,varchar,character varying,Pass
+load_cashflows,permission,varchar,character varying,Pass
+load_cashflows,portfolio,varchar,character varying,Pass
+load_cashflows,quantityindex,int,integer,Pass
+load_cashflows,riskfor,varchar,character varying,Pass
+load_cashflows,riskmodel,varchar,character varying,Pass
+load_cashflows,riskpoint,varchar,character varying,Pass
+load_cashflows,risksource,varchar,character varying,Pass
+load_cashflows,risksubtype,varchar,character varying,Pass
+load_cashflows,risktype,varchar,character varying,Pass
+load_cashflows,startaccrualdate,datetime,timestamp without time zone,Pass
+load_cashflows,strategy,varchar,character varying,Pass
+load_cashflows,svminstrument,varchar,character varying,Pass
+load_cashflows,tradetype,varchar,character varying,Pass
+load_cashflows,vol,float,double precision,Pass
+load_cashflowsaux,bhid,int,integer,Pass
+load_cashflowsaux,loadcashflowsid,bigint,bigint,Pass
+load_cashflowsaux,risktypedefinitionid,int,integer,Pass
+load_curvedefinition,curveccy,char,character,Pass
+load_curvedefinition,curverevallabel,varchar,character varying,Pass
+load_curvedefinition,loadid,int,integer,Pass
+load_gettraderpreference,bhid,int,integer,Pass
+load_gettraderpreference,instrumentccy,varchar,character varying,Pass
+load_gettraderpreference,isao,bit,numeric,Fail
+load_gettraderpreference,riskfor,varchar,character varying,Pass
+load_gettraderpreference,svminstrument,varchar,character varying,Pass
+load_master,date,datetime,timestamp without time zone,Pass
+load_master,filedate,datetime,timestamp without time zone,Pass
+load_master,filename,varchar,character varying,Pass
+load_master,filepath,varchar,character varying,Pass
+load_master,loaddate,datetime,timestamp without time zone,Pass
+load_master,loadid,int,integer,Pass
+load_master,process,varchar,character varying,Pass
+load_master,purgedate,datetime,timestamp without time zone,Pass
+load_master,status,varchar,character varying,Pass
+load_monitor,date,datetime,timestamp without time zone,Pass
+load_monitor,filename,varchar,character varying,Pass
+load_monitor,status,varchar,character varying,Pass
+load_monitorconfig,contact,varchar,character varying,Pass
+load_monitorconfig,errortime,varchar,character varying,Pass
+load_monitorconfig,filename,varchar,character varying,Pass
+load_monitorconfig,runwindow,varchar,character varying,Pass
+load_monitorconfig,warntime,varchar,character varying,Pass
+load_risk,asof,datetime,timestamp without time zone,Pass
+load_risk,bhid,int,integer,Pass
+load_risk,calculatedat,datetime,timestamp without time zone,Pass
+load_risk,curveccy,char,character,Pass
+load_risk,curveinterpolation,varchar,character varying,Pass
+load_risk,curverevallabel,varchar,character varying,Pass
+load_risk,curvescenariotype,varchar,character varying,Pass
+load_risk,instrument,varchar,character varying,Pass
+load_risk,instrumentccy,varchar,character varying,Pass
+load_risk,isao,int,integer,Pass
+load_risk,loadid,int,integer,Pass
+load_risk,loadriskid,bigint,bigint,Pass
+load_risk,nbinternal,int,integer,Pass
+load_risk,permission,varchar,character varying,Pass
+load_risk,portfolio,varchar,character varying,Pass
+load_risk,quantityindex,int,integer,Pass
+load_risk,riskexpiry,varchar,character varying,Pass
+load_risk,riskfor,varchar,character varying,Pass
+load_risk,riskfwdtenor,varchar,character varying,Pass
+load_risk,riskmodel,varchar,character varying,Pass
+load_risk,riskpoint,varchar,character varying,Pass
+load_risk,risksource,varchar,character varying,Pass
+load_risk,risksubtype,varchar,character varying,Pass
+load_risk,risktenor,varchar,character varying,Pass
+load_risk,risktype,varchar,character varying,Pass
+load_risk,riskvalue,float,double precision,Pass
+load_risk,strategy,varchar,character varying,Pass
+load_risk,svminstrument,varchar,character varying,Pass
+load_risk,tradetype,varchar,character varying,Pass
+load_riskaux,bhid,int,integer,Pass
+load_riskaux,curvedefinitionid,int,integer,Pass
+load_riskaux,loadriskid,bigint,bigint,Pass
+load_riskaux,risktypedefinitionid,int,integer,Pass
+load_riskfilter,asof,datetime,timestamp without time zone,Pass
+load_riskfilter,bhid,int,integer,Pass
+load_riskfilter,calculatedat,datetime,timestamp without time zone,Pass
+load_riskfilter,client,varchar,character varying,Pass
+load_riskfilter,curveinterpolation,varchar,character varying,Pass
+load_riskfilter,curvescenariotype,varchar,character varying,Pass
+load_riskfilter,instrument,varchar,character varying,Pass
+load_riskfilter,instrumentccy,varchar,character varying,Pass
+load_riskfilter,isao,int,integer,Pass
+load_riskfilter,loadid,int,integer,Pass
+load_riskfilter,loadriskfilterid,bigint,bigint,Pass
+load_riskfilter,nbinternal,int,integer,Pass
+load_riskfilter,permission,varchar,character varying,Pass
+load_riskfilter,portfolio,varchar,character varying,Pass
+load_riskfilter,quantityindex,int,integer,Pass
+load_riskfilter,riskfor,varchar,character varying,Pass
+load_riskfilter,riskmodel,varchar,character varying,Pass
+load_riskfilter,riskpoint,varchar,character varying,Pass
+load_riskfilter,risksource,varchar,character varying,Pass
+load_riskfilter,risksubtype,varchar,character varying,Pass
+load_riskfilter,risktype,varchar,character varying,Pass
+load_riskfilter,strategy,varchar,character varying,Pass
+load_riskfilter,svminstrument,varchar,character varying,Pass
+load_riskfilter,tradetype,varchar,character varying,Pass
+load_riskfilter,value,int,integer,Pass
+load_riskfilteraux,bhid,int,integer,Pass
+load_riskfilteraux,loadriskfilterid,bigint,bigint,Pass
+load_riskfilteraux,risktypedefinitionid,int,integer,Pass
+load_risktypedefinition,curveinterpolation,varchar,character varying,Pass
+load_risktypedefinition,curvescenariotype,varchar,character varying,Pass
+load_risktypedefinition,loadid,int,integer,Pass
+load_risktypedefinition,riskfor,varchar,character varying,Pass
+load_risktypedefinition,riskmodel,varchar,character varying,Pass
+load_risktypedefinition,riskpoint,varchar,character varying,Pass
+load_risktypedefinition,risksource,varchar,character varying,Pass
+load_risktypedefinition,risksubtype,varchar,character varying,Pass
+load_risktypedefinition,risktype,varchar,character varying,Pass
+load_svminput,calculatedat,datetime,timestamp without time zone,Pass
+load_svminput,currency,varchar,character varying,Pass
+load_svminput,date,datetime,timestamp without time zone,Pass
+load_svminput,expiry,varchar,character varying,Pass
+load_svminput,fwdtenor,varchar,character varying,Pass
+load_svminput,key,varchar,character varying,Pass
+load_svminput,loadid,int,integer,Pass
+load_svminput,sequence,int,integer,Pass
+load_svminput,tenor,varchar,character varying,Pass
+load_svminput,type,varchar,character varying,Pass
+load_svminput,value,float,double precision,Pass
+load_svminputcap,calculatedat,datetime,timestamp without time zone,Pass
+load_svminputcap,currency,varchar,character varying,Pass
+load_svminputcap,date,datetime,timestamp without time zone,Pass
+load_svminputcap,expiry,varchar,character varying,Pass
+load_svminputcap,fwdtenor,varchar,character varying,Pass
+load_svminputcap,key,varchar,character varying,Pass
+load_svminputcap,loadid,int,integer,Pass
+load_svminputcap,sequence,int,integer,Pass
+load_svminputcap,tenor,varchar,character varying,Pass
+load_svminputcap,type,varchar,character varying,Pass
+load_svminputcap,value,float,double precision,Pass
+load_svminputcmsspread,calculatedat,datetime,timestamp without time zone,Pass
+load_svminputcmsspread,date,datetime,timestamp without time zone,Pass
+load_svminputcmsspread,expiry,varchar,character varying,Pass
+load_svminputcmsspread,instrument,varchar,character varying,Pass
+load_svminputcmsspread,loadid,int,integer,Pass
+load_svminputcmsspread,sequence,int,integer,Pass
+load_svminputcmsspread,type,varchar,character varying,Pass
+load_svminputcmsspread,value,float,double precision,Pass
+load_svminputmidcrv,calculatedat,datetime,timestamp without time zone,Pass
+load_svminputmidcrv,currency,varchar,character varying,Pass
+load_svminputmidcrv,date,datetime,timestamp without time zone,Pass
+load_svminputmidcrv,expiry,varchar,character varying,Pass
+load_svminputmidcrv,fwdtenor,varchar,character varying,Pass
+load_svminputmidcrv,key,varchar,character varying,Pass
+load_svminputmidcrv,loadid,int,integer,Pass
+load_svminputmidcrv,sequence,int,integer,Pass
+load_svminputmidcrv,tenor,varchar,character varying,Pass
+load_svminputmidcrv,type,varchar,character varying,Pass
+load_svminputmidcrv,value,float,double precision,Pass
+load_svminputsmilerange,calculatedat,datetime,timestamp without time zone,Pass
+load_svminputsmilerange,currency,varchar,character varying,Pass
+load_svminputsmilerange,date,datetime,timestamp without time zone,Pass
+load_svminputsmilerange,loadid,int,integer,Pass
+load_svminputsmilerange,value,float,double precision,Pass
+load_svminputvolspread,calculatedat,datetime,timestamp without time zone,Pass
+load_svminputvolspread,currency,char,character,Pass
+load_svminputvolspread,date,datetime,timestamp without time zone,Pass
+load_svminputvolspread,expiry,varchar,character varying,Pass
+load_svminputvolspread,fwdtenor,varchar,character varying,Pass
+load_svminputvolspread,key,varchar,character varying,Pass
+load_svminputvolspread,loadid,int,integer,Pass
+load_svminputvolspread,tenor,varchar,character varying,Pass
+load_svminputvolspread,type,varchar,character varying,Pass
+load_svminputvolspread,value,float,double precision,Pass
+load_tradedefinition,bhid,int,integer,Pass
+load_tradedefinition,instrument,varchar,character varying,Pass
+load_tradedefinition,instrumentccy,varchar,character varying,Pass
+load_tradedefinition,isao,bit,numeric,Fail
+load_tradedefinition,loadid,int,integer,Pass
+load_tradedefinition,nbinternal,int,integer,Pass
+load_tradedefinition,permission,varchar,character varying,Pass
+load_tradedefinition,portfolio,varchar,character varying,Pass
+load_tradedefinition,quantityindex,int,integer,Pass
+load_tradedefinition,strategy,varchar,character varying,Pass
+load_tradedefinition,svminstrument,varchar,character varying,Pass
+load_tradedefinition,tradetype,varchar,character varying,Pass
+load_wedgespread,calculatedat,datetime,timestamp without time zone,Pass
+load_wedgespread,currency,varchar,character varying,Pass
+load_wedgespread,date,datetime,timestamp without time zone,Pass
+load_wedgespread,expiry,varchar,character varying,Pass
+load_wedgespread,loadid,int,integer,Pass
+load_wedgespread,sequence,int,integer,Pass
+load_wedgespread,value,float,double precision,Pass
+onindexdata,calctype,varchar,character varying,Pass
+onindexdata,indexname,varchar,character varying,Pass
+onindexdata,ratecutoffbusdays,int,integer,Pass
+onindexdata,settleshiftdays,int,integer,Pass
+permission1,ntusername,nvarchar,character varying,Pass
+permission1,permission,varchar,character varying,Pass
+permission2,ntusername,nvarchar,character varying,Pass
+permission2,permission,varchar,character varying,Pass
+preferenceprofilegroup,id,int,integer,Pass
+preferenceprofilegroup,name,varchar,character varying,Pass
+preferenceprofilegroupmap,preferenceprofilegroupid,int,integer,Pass
+preferenceprofilegroupmap,profileid,int,integer,Pass
+prodsnap_cashflows,asof,datetime,timestamp without time zone,Pass
+prodsnap_cashflows,bhid,int,integer,Pass
+prodsnap_cashflows,calculatedat,datetime,timestamp without time zone,Pass
+prodsnap_cashflows,cashflow,float,double precision,Pass
+prodsnap_cashflows,curveinterpolation,varchar,character varying,Pass
+prodsnap_cashflows,curvescenariotype,varchar,character varying,Pass
+prodsnap_cashflows,dcfrac,float,double precision,Pass
+prodsnap_cashflows,df,float,double precision,Pass
+prodsnap_cashflows,endaccrualdate,datetime,timestamp without time zone,Pass
+prodsnap_cashflows,instrument,varchar,character varying,Pass
+prodsnap_cashflows,instrumentccy,varchar,character varying,Pass
+prodsnap_cashflows,isao,bit,numeric,Fail
+prodsnap_cashflows,nbinternal,int,integer,Pass
+prodsnap_cashflows,paymentccy,varchar,character varying,Pass
+prodsnap_cashflows,paymentdate,datetime,timestamp without time zone,Pass
+prodsnap_cashflows,paymenttype,varchar,character varying,Pass
+prodsnap_cashflows,permission,varchar,character varying,Pass
+prodsnap_cashflows,portfolio,varchar,character varying,Pass
+prodsnap_cashflows,quantityindex,int,integer,Pass
+prodsnap_cashflows,riskfor,varchar,character varying,Pass
+prodsnap_cashflows,riskmodel,varchar,character varying,Pass
+prodsnap_cashflows,riskpoint,varchar,character varying,Pass
+prodsnap_cashflows,risksource,varchar,character varying,Pass
+prodsnap_cashflows,risksubtype,varchar,character varying,Pass
+prodsnap_cashflows,risktype,varchar,character varying,Pass
+prodsnap_cashflows,startaccrualdate,datetime,timestamp without time zone,Pass
+prodsnap_cashflows,tradetype,varchar,character varying,Pass
+prodsnap_cashflows,vol,float,double precision,Pass
+prodsnap_risk,asof,datetime,timestamp without time zone,Pass
+prodsnap_risk,bhid,int,integer,Pass
+prodsnap_risk,calculatedat,datetime,timestamp without time zone,Pass
+prodsnap_risk,curveccy,varchar,character varying,Pass
+prodsnap_risk,curveinterpolation,varchar,character varying,Pass
+prodsnap_risk,curverevallabel,varchar,character varying,Pass
+prodsnap_risk,curvescenariotype,varchar,character varying,Pass
+prodsnap_risk,instrument,varchar,character varying,Pass
+prodsnap_risk,instrumentccy,varchar,character varying,Pass
+prodsnap_risk,isao,bit,numeric,Fail
+prodsnap_risk,nbinternal,int,integer,Pass
+prodsnap_risk,permission,varchar,character varying,Pass
+prodsnap_risk,portfolio,varchar,character varying,Pass
+prodsnap_risk,quantityindex,int,integer,Pass
+prodsnap_risk,riskexpiry,varchar,character varying,Pass
+prodsnap_risk,riskfor,varchar,character varying,Pass
+prodsnap_risk,riskfwdtenor,varchar,character varying,Pass
+prodsnap_risk,riskmodel,varchar,character varying,Pass
+prodsnap_risk,riskpoint,varchar,character varying,Pass
+prodsnap_risk,risksource,varchar,character varying,Pass
+prodsnap_risk,risksubtype,varchar,character varying,Pass
+prodsnap_risk,risktenor,varchar,character varying,Pass
+prodsnap_risk,risktype,varchar,character varying,Pass
+prodsnap_risk,riskvalue,float,double precision,Pass
+prodsnap_risk,tradetype,varchar,character varying,Pass
+prodsnap_risk_all,asof,datetime,timestamp without time zone,Pass
+prodsnap_risk_all,bhid,int,integer,Pass
+prodsnap_risk_all,calculatedat,datetime,timestamp without time zone,Pass
+prodsnap_risk_all,curveccy,varchar,character varying,Pass
+prodsnap_risk_all,curveinterpolation,varchar,character varying,Pass
+prodsnap_risk_all,curverevallabel,varchar,character varying,Pass
+prodsnap_risk_all,curvescenariotype,varchar,character varying,Pass
+prodsnap_risk_all,instrument,varchar,character varying,Pass
+prodsnap_risk_all,instrumentccy,varchar,character varying,Pass
+prodsnap_risk_all,isao,bit,numeric,Fail
+prodsnap_risk_all,nbinternal,int,integer,Pass
+prodsnap_risk_all,permission,varchar,character varying,Pass
+prodsnap_risk_all,portfolio,varchar,character varying,Pass
+prodsnap_risk_all,quantityindex,int,integer,Pass
+prodsnap_risk_all,riskexpiry,varchar,character varying,Pass
+prodsnap_risk_all,riskfor,varchar,character varying,Pass
+prodsnap_risk_all,riskfwdtenor,varchar,character varying,Pass
+prodsnap_risk_all,riskmodel,varchar,character varying,Pass
+prodsnap_risk_all,riskpoint,varchar,character varying,Pass
+prodsnap_risk_all,risksource,varchar,character varying,Pass
+prodsnap_risk_all,risksubtype,varchar,character varying,Pass
+prodsnap_risk_all,risktenor,varchar,character varying,Pass
+prodsnap_risk_all,risktype,varchar,character varying,Pass
+prodsnap_risk_all,riskvalue,float,double precision,Pass
+prodsnap_risk_all,tradetype,varchar,character varying,Pass
+prodsnap_risk_riskreporter,asof,datetime,timestamp without time zone,Pass
+prodsnap_risk_riskreporter,bhid,int,integer,Pass
+prodsnap_risk_riskreporter,calculatedat,datetime,timestamp without time zone,Pass
+prodsnap_risk_riskreporter,curveccy,varchar,character varying,Pass
+prodsnap_risk_riskreporter,curveinterpolation,varchar,character varying,Pass
+prodsnap_risk_riskreporter,curverevallabel,varchar,character varying,Pass
+prodsnap_risk_riskreporter,curvescenariotype,varchar,character varying,Pass
+prodsnap_risk_riskreporter,instrument,varchar,character varying,Pass
+prodsnap_risk_riskreporter,instrumentccy,varchar,character varying,Pass
+prodsnap_risk_riskreporter,isao,bit,numeric,Fail
+prodsnap_risk_riskreporter,nbinternal,int,integer,Pass
+prodsnap_risk_riskreporter,permission,varchar,character varying,Pass
+prodsnap_risk_riskreporter,portfolio,varchar,character varying,Pass
+prodsnap_risk_riskreporter,quantityindex,int,integer,Pass
+prodsnap_risk_riskreporter,riskexpiry,varchar,character varying,Pass
+prodsnap_risk_riskreporter,riskfor,varchar,character varying,Pass
+prodsnap_risk_riskreporter,riskfwdtenor,varchar,character varying,Pass
+prodsnap_risk_riskreporter,riskmodel,varchar,character varying,Pass
+prodsnap_risk_riskreporter,riskpoint,varchar,character varying,Pass
+prodsnap_risk_riskreporter,risksource,varchar,character varying,Pass
+prodsnap_risk_riskreporter,risksubtype,varchar,character varying,Pass
+prodsnap_risk_riskreporter,risktenor,varchar,character varying,Pass
+prodsnap_risk_riskreporter,risktype,varchar,character varying,Pass
+prodsnap_risk_riskreporter,riskvalue,float,double precision,Pass
+prodsnap_risk_riskreporter,tradetype,varchar,character varying,Pass
+profile,id,int,integer,Pass
+profile,instrumentccy,varchar,character varying,Pass
+profile,isao,bit,numeric,Fail
+profile,riskdefinitiongroupid,int,integer,Pass
+profile,svminstgroupid,int,integer,Pass
+riskbasetype,id,int,integer,Pass
+riskbasetype,name,varchar,character varying,Pass
+riskdefinition,id,int,integer,Pass
+riskdefinition,name,varchar,character varying,Pass
+riskdefinition,riskdefinitiongroupid,int,integer,Pass
+riskdefinition,riskmodelid,int,integer,Pass
+riskdefinition,risktypeid,int,integer,Pass
+riskdefinitiongroup,id,int,integer,Pass
+riskdefinitiongroup,name,varchar,character varying,Pass
+riskforall,id,int,integer,Pass
+riskforall,instrumentccy,varchar,character varying,Pass
+riskforall,isao,bit,numeric,Fail
+riskforall,riskdefinitionid,int,integer,Pass
+riskforall,riskfor,varchar,character varying,Pass
+riskforall,riskmodel,varchar,character varying,Pass
+riskforall,risktype,varchar,character varying,Pass
+riskforall,svminstrument,varchar,character varying,Pass
+riskmodel,id,int,integer,Pass
+riskmodel,name,varchar,character varying,Pass
+risktype,id,int,integer,Pass
+risktype,inrrlite,bit,numeric,Fail
+risktype,name,varchar,character varying,Pass
+risktype,riskbasetypeid,int,integer,Pass
+risktypedefinition,curveinterpolation,varchar,character varying,Pass
+risktypedefinition,curvescenariotype,varchar,character varying,Pass
+risktypedefinition,riskmodel,varchar,character varying,Pass
+risktypedefinition,riskpoint,varchar,character varying,Pass
+risktypedefinition,risksource,varchar,character varying,Pass
+risktypedefinition,risksubtype,varchar,character varying,Pass
+risktypedefinition,risktype,varchar,character varying,Pass
+risktypedefinition,risktypedefinitionid,int,integer,Pass
+rrliterisk,id,int,integer,Pass
+rrliterisk,instrument,varchar,character varying,Pass
+rrliterisk,isao,bit,numeric,Fail
+rrliterisk,riskdefinitionid,int,integer,Pass
+rrliterisk,svminstrument,varchar,character varying,Pass
+rrlitesvminstgrouptoriskdefinition,id,int,integer,Pass
+rrlitesvminstgrouptoriskdefinition,instrument,varchar,character varying,Pass
+rrlitesvminstgrouptoriskdefinition,isao,bit,numeric,Fail
+rrlitesvminstgrouptoriskdefinition,riskdefinitionid,int,integer,Pass
+rrlitesvminstgrouptoriskdefinition,svminstgroupid,int,integer,Pass
+rrlitesvminstgrouptorisktype,id,int,integer,Pass
+rrlitesvminstgrouptorisktype,instrument,varchar,character varying,Pass
+rrlitesvminstgrouptorisktype,isao,bit,numeric,Fail
+rrlitesvminstgrouptorisktype,risktypeid,int,integer,Pass
+rrlitesvminstgrouptorisktype,svminstgroupid,int,integer,Pass
+status,changetime,datetime,timestamp without time zone,Pass
+status,fieldname,varchar,character varying,Pass
+status,fieldvalue,int,integer,Pass
+svmerrormessages,book,nchar,character,Pass
+svmerrormessages,date,datetime,timestamp without time zone,Pass
+svmerrormessages,emailgroup,int,integer,Pass
+svmerrormessages,errmsgid,int,integer,Pass
+svmerrormessages,instrument,nvarchar,character varying,Pass
+svmerrormessages,messagetext,nvarchar,text,Pass
+svmerrormessages,messagetype,nvarchar,character varying,Pass
+svmerrormessages,nb,int,integer,Pass
+svmerrormessages,processname,nvarchar,character varying,Pass
+svmerrormessages,status,smallint,smallint,Pass
+svmerrormessages,tradetype,nvarchar,character varying,Pass
+svminput,calculatedat,datetime,timestamp without time zone,Pass
+svminput,date,datetime,timestamp without time zone,Pass
+svminput,definitionid,int,integer,Pass
+svminput,id,int,integer,Pass
+svminputcap,calculatedat,datetime,timestamp without time zone,Pass
+svminputcap,date,datetime,timestamp without time zone,Pass
+svminputcap,definitionid,int,integer,Pass
+svminputcap,id,int,integer,Pass
+svminputcapdata,expiry,varchar,character varying,Pass
+svminputcapdata,fwdtenor,varchar,character varying,Pass
+svminputcapdata,id,int,integer,Pass
+svminputcapdata,sequence,int,integer,Pass
+svminputcapdata,tenor,varchar,character varying,Pass
+svminputcapdata,value,float,double precision,Pass
+svminputcapdefinition,currency,varchar,character varying,Pass
+svminputcapdefinition,definitionid,int,integer,Pass
+svminputcapdefinition,fwd,bit,numeric,Fail
+svminputcapdefinition,key,varchar,character varying,Pass
+svminputcapdefinition,type,varchar,character varying,Pass
+svminputcmsspread,calculatedat,datetime,timestamp without time zone,Pass
+svminputcmsspread,date,datetime,timestamp without time zone,Pass
+svminputcmsspread,definitionid,int,integer,Pass
+svminputcmsspread,id,int,integer,Pass
+svminputcmsspreaddata,expiry,varchar,character varying,Pass
+svminputcmsspreaddata,id,int,integer,Pass
+svminputcmsspreaddata,sequence,int,integer,Pass
+svminputcmsspreaddata,value,float,double precision,Pass
+svminputcmsspreaddefinition,definitionid,int,integer,Pass
+svminputcmsspreaddefinition,instrument,varchar,character varying,Pass
+svminputcmsspreaddefinition,type,varchar,character varying,Pass
+svminputdata,expiry,varchar,character varying,Pass
+svminputdata,fwdtenor,varchar,character varying,Pass
+svminputdata,id,int,integer,Pass
+svminputdata,sequence,int,integer,Pass
+svminputdata,tenor,varchar,character varying,Pass
+svminputdata,value,float,double precision,Pass
+svminputdefinition,currency,varchar,character varying,Pass
+svminputdefinition,definitionid,int,integer,Pass
+svminputdefinition,fwd,bit,numeric,Fail
+svminputdefinition,key,varchar,character varying,Pass
+svminputdefinition,type,varchar,character varying,Pass
+svminputmidcrv,calculatedat,datetime,timestamp without time zone,Pass
+svminputmidcrv,date,datetime,timestamp without time zone,Pass
+svminputmidcrv,definitionid,int,integer,Pass
+svminputmidcrv,id,int,integer,Pass
+svminputmidcrvdata,expiry,varchar,character varying,Pass
+svminputmidcrvdata,fwdtenor,varchar,character varying,Pass
+svminputmidcrvdata,id,int,integer,Pass
+svminputmidcrvdata,sequence,int,integer,Pass
+svminputmidcrvdata,tenor,varchar,character varying,Pass
+svminputmidcrvdata,value,float,double precision,Pass
+svminputmidcrvdefinition,currency,varchar,character varying,Pass
+svminputmidcrvdefinition,definitionid,int,integer,Pass
+svminputmidcrvdefinition,key,varchar,character varying,Pass
+svminputmidcrvdefinition,type,varchar,character varying,Pass
+svminputsmilerange,calculatedat,datetime,timestamp without time zone,Pass
+svminputsmilerange,date,datetime,timestamp without time zone,Pass
+svminputsmilerange,definitionid,int,integer,Pass
+svminputsmilerange,id,int,integer,Pass
+svminputsmilerangedata,id,int,integer,Pass
+svminputsmilerangedata,value,float,double precision,Pass
+svminputsmilerangedefinition,currency,varchar,character varying,Pass
+svminputsmilerangedefinition,definitionid,int,integer,Pass
+svminputvolspread,calculatedat,datetime,timestamp without time zone,Pass
+svminputvolspread,date,datetime,timestamp without time zone,Pass
+svminputvolspread,definitionid,int,integer,Pass
+svminputvolspread,value,float,double precision,Pass
+svminputvolspread,volspreadid,int,integer,Pass
+svminputvolspreaddefinition,currency,char,character,Pass
+svminputvolspreaddefinition,definitionid,int,integer,Pass
+svminputvolspreaddefinition,expiry,varchar,character varying,Pass
+svminputvolspreaddefinition,fwdtenor,varchar,character varying,Pass
+svminputvolspreaddefinition,key,varchar,character varying,Pass
+svminputvolspreaddefinition,tenor,varchar,character varying,Pass
+svminputvolspreaddefinition,type,varchar,character varying,Pass
+svminstgroup,id,int,integer,Pass
+svminstgroup,name,varchar,character varying,Pass
+svminstrument,id,int,integer,Pass
+svminstrument,name,varchar,character varying,Pass
+svminstrumentstogroups,svminstgroupid,int,integer,Pass
+svminstrumentstogroups,svminstrumentid,int,integer,Pass
+tablestatistics,dataentrydate,datetime,timestamp without time zone,Pass
+tablestatistics,indexlastupdated,datetime,timestamp without time zone,Pass
+tablestatistics,indexname,nvarchar,character varying,Pass
+tablestatistics,rowssampled,int,integer,Pass
+tablestatistics,tablename,nvarchar,character varying,Pass
+tablestatistics,totalrowsintable,int,integer,Pass
+test,id,int,integer,Pass
+tickergclibor,gclibor,int,integer,Pass
+tickergclibor,ticker,varchar,character varying,Pass
+tradedefinition,bhid,int,integer,Pass
+tradedefinition,fund,varchar,character varying,Pass
+tradedefinition,instrument,varchar,character varying,Pass
+tradedefinition,instrumentccy,varchar,character varying,Pass
+tradedefinition,isao,bit,numeric,Fail
+tradedefinition,nbinternal,int,integer,Pass
+tradedefinition,permission,varchar,character varying,Pass
+tradedefinition,portfolio,varchar,character varying,Pass
+tradedefinition,quantityindex,int,integer,Pass
+tradedefinition,riskfor,varchar,character varying,Pass
+tradedefinition,strategy,varchar,character varying,Pass
+tradedefinition,svminstrument,varchar,character varying,Pass
+tradedefinition,tradetype,varchar,character varying,Pass
+traderprefgroup,id,int,integer,Pass
+traderprefgroup,name,varchar,character varying,Pass
+traderprefgroup,preferenceprofilegroupid,int,integer,Pass
+traderprefgroupriskmap,portfolio,varchar,character varying,Pass
+traderprefgroupriskmap,riskfor,varchar,character varying,Pass
+traderprefgroupriskmap,traderprefgroupid,int,integer,Pass
+wedgespread,calculatedat,datetime,timestamp without time zone,Pass
+wedgespread,date,datetime,timestamp without time zone,Pass
+wedgespread,definitionid,int,integer,Pass
+wedgespread,id,int,integer,Pass
+wedgespreaddata,expiry,varchar,character varying,Pass
+wedgespreaddata,id,int,integer,Pass
+wedgespreaddata,sequence,int,integer,Pass
+wedgespreaddata,value,float,double precision,Pass
+wedgespreaddefinition,currency,varchar,character varying,Pass
+wedgespreaddefinition,definitionid,int,integer,Pass

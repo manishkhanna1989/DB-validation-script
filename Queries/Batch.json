@@ -1,0 +1,22 @@
+[
+  {
+    "tableName": "Test1",
+   "pgQuery": "select * from dbo.vw_referencedatenew order by fund asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.vw_referencedatenew order by fund asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 50,
+      "totalRecords": 50
+    }
+  },
+  {
+    "tableName": "Test2",
+   "pgQuery": "select * from dbo.vw_referencedatenew order by fund asc OFFSET ${offset} rows FETCH NEXT ${batchSize} ROWS ONLY;",
+    "sfQuery": "select * from dbo.vw_referencedatenew order by fund asc OFFSET ${offset} ROWS FETCH NEXT ${batchSize} ROWS ONLY",
+    "parameters": {
+      "offset": 0,
+      "batchSize": 10,
+      "totalRecords": 20
+    }
+  }
+]

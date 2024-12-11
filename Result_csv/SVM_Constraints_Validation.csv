@@ -1,0 +1,189 @@
+TableName,ColumnName,PG Constraints,SQL Constraints,Status
+archivedate,asof,PRIMARY KEY,PRIMARY KEY,Pass
+batchinfo,batchname,PRIMARY KEY,PRIMARY KEY,Pass
+batchinfo,jobname,PRIMARY KEY,PRIMARY KEY,Pass
+bhidpreferenceoverride,bhid,PRIMARY KEY,PRIMARY KEY,Pass
+bhidpreferenceoverride,riskdefinitionid,FOREIGN KEY,FOREIGN KEY,Pass
+bhids_tr_svm_intraday,bhid,UNIQUE,UNIQUE,Pass
+bhids_tr_svm_intraday,isecm,UNIQUE,UNIQUE,Pass
+calctypedaytype,calctype,PRIMARY KEY,PRIMARY KEY,Pass
+capletspread,calculatedat,UNIQUE,UNIQUE,Pass
+capletspread,date,UNIQUE,UNIQUE,Pass
+capletspread,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+capletspread,id,PRIMARY KEY,PRIMARY KEY,Pass
+capletspreaddata,id,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+capletspreaddata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+capletspreaddefinition,currency,UNIQUE,UNIQUE,Pass
+capletspreaddefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+capletspreaddefinition,term,UNIQUE,UNIQUE,Pass
+capvol,calculatedat,UNIQUE,UNIQUE,Pass
+capvol,date,UNIQUE,UNIQUE,Pass
+capvol,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+capvol,id,PRIMARY KEY,PRIMARY KEY,Pass
+capvoldata,id,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+capvoldata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+capvoldefinition,currency,UNIQUE,UNIQUE,Pass
+capvoldefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+capvoldefinition,term,UNIQUE,UNIQUE,Pass
+capvoldefinition,type,UNIQUE,UNIQUE,Pass
+curvedefinition,curveccy,UNIQUE,UNIQUE,Pass
+curvedefinition,curvedefinitionid,PRIMARY KEY,PRIMARY KEY,Pass
+curvedefinition,curverevallabel,UNIQUE,UNIQUE,Pass
+dbcomparebatchjob,batchjob,PRIMARY KEY,PRIMARY KEY,Pass
+dbcomparejob,batchjob,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+dbcomparejob,job,PRIMARY KEY,PRIMARY KEY,Pass
+futuresinfo,murexinstrument,PRIMARY KEY,PRIMARY KEY,Pass
+jobstatus,jobname,PRIMARY KEY,PRIMARY KEY,Pass
+load_capletspread,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_capvol,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_cashflows,loadcashflowsid,PRIMARY KEY,PRIMARY KEY,Pass
+load_cashflows,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_cashflowsaux,loadcashflowsid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+load_curvedefinition,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_master,loadid,PRIMARY KEY,PRIMARY KEY,Pass
+load_monitor,date,PRIMARY KEY,PRIMARY KEY,Pass
+load_monitor,filename,PRIMARY KEY,PRIMARY KEY,Pass
+load_monitorconfig,filename,PRIMARY KEY,PRIMARY KEY,Pass
+load_risk,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_risk,loadriskid,PRIMARY KEY,PRIMARY KEY,Pass
+load_riskaux,loadriskid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+load_riskfilter,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_riskfilter,loadriskfilterid,PRIMARY KEY,PRIMARY KEY,Pass
+load_riskfilteraux,loadriskfilterid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+load_risktypedefinition,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminput,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminputcap,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminputcmsspread,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminputmidcrv,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminputsmilerange,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_svminputvolspread,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_tradedefinition,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+load_wedgespread,loadid,FOREIGN KEY,FOREIGN KEY,Pass
+onindexdata,indexname,PRIMARY KEY,PRIMARY KEY,Pass
+preferenceprofilegroup,id,PRIMARY KEY,PRIMARY KEY,Pass
+preferenceprofilegroup,name,UNIQUE,UNIQUE,Pass
+preferenceprofilegroupmap,preferenceprofilegroupid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+preferenceprofilegroupmap,profileid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+profile,id,PRIMARY KEY,PRIMARY KEY,Pass
+profile,riskdefinitiongroupid,FOREIGN KEY,FOREIGN KEY,Pass
+profile,svminstgroupid,FOREIGN KEY,FOREIGN KEY,Pass
+riskbasetype,id,PRIMARY KEY,PRIMARY KEY,Pass
+riskbasetype,name,UNIQUE,UNIQUE,Pass
+riskdefinition,id,PRIMARY KEY,PRIMARY KEY,Pass
+riskdefinition,riskdefinitiongroupid,FOREIGN KEY,FOREIGN KEY,Pass
+riskdefinition,riskmodelid,FOREIGN KEY,FOREIGN KEY,Pass
+riskdefinition,risktypeid,FOREIGN KEY,FOREIGN KEY,Pass
+riskdefinitiongroup,id,PRIMARY KEY,PRIMARY KEY,Pass
+riskdefinitiongroup,name,UNIQUE,UNIQUE,Pass
+riskforall,id,PRIMARY KEY,PRIMARY KEY,Pass
+riskmodel,id,PRIMARY KEY,PRIMARY KEY,Pass
+riskmodel,name,UNIQUE,UNIQUE,Pass
+risktype,id,PRIMARY KEY,PRIMARY KEY,Pass
+risktype,name,UNIQUE,UNIQUE,Pass
+risktype,riskbasetypeid,FOREIGN KEY,FOREIGN KEY,Pass
+risktypedefinition,curveinterpolation,UNIQUE,UNIQUE,Pass
+risktypedefinition,curvescenariotype,UNIQUE,UNIQUE,Pass
+risktypedefinition,riskmodel,UNIQUE,UNIQUE,Pass
+risktypedefinition,riskpoint,UNIQUE,UNIQUE,Pass
+risktypedefinition,risksource,UNIQUE,UNIQUE,Pass
+risktypedefinition,risksubtype,UNIQUE,UNIQUE,Pass
+risktypedefinition,risktype,UNIQUE,UNIQUE,Pass
+risktypedefinition,risktypedefinitionid,PRIMARY KEY,PRIMARY KEY,Pass
+rrliterisk,id,PRIMARY KEY,PRIMARY KEY,Pass
+rrlitesvminstgrouptoriskdefinition,id,PRIMARY KEY,PRIMARY KEY,Pass
+rrlitesvminstgrouptoriskdefinition,riskdefinitionid,FOREIGN KEY,FOREIGN KEY,Pass
+rrlitesvminstgrouptoriskdefinition,svminstgroupid,FOREIGN KEY,FOREIGN KEY,Pass
+rrlitesvminstgrouptorisktype,id,PRIMARY KEY,PRIMARY KEY,Pass
+rrlitesvminstgrouptorisktype,risktypeid,"FOREIGN KEY, FOREIGN KEY","FOREIGN KEY, FOREIGN KEY",Pass
+status,fieldname,PRIMARY KEY,PRIMARY KEY,Pass
+svmerrormessages,errmsgid,PRIMARY KEY,PRIMARY KEY,Pass
+svminput,calculatedat,UNIQUE,UNIQUE,Pass
+svminput,date,UNIQUE,UNIQUE,Pass
+svminput,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+svminput,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcap,calculatedat,UNIQUE,UNIQUE,Pass
+svminputcap,date,UNIQUE,UNIQUE,Pass
+svminputcap,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+svminputcap,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcapdata,expiry,UNIQUE,UNIQUE,Pass
+svminputcapdata,fwdtenor,UNIQUE,UNIQUE,Pass
+svminputcapdata,id,"FOREIGN KEY, PRIMARY KEY, UNIQUE","FOREIGN KEY, PRIMARY KEY, UNIQUE",Pass
+svminputcapdata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcapdata,tenor,UNIQUE,UNIQUE,Pass
+svminputcapdefinition,currency,UNIQUE,UNIQUE,Pass
+svminputcapdefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcapdefinition,fwd,UNIQUE,UNIQUE,Pass
+svminputcapdefinition,key,UNIQUE,UNIQUE,Pass
+svminputcapdefinition,type,UNIQUE,UNIQUE,Pass
+svminputcmsspread,calculatedat,UNIQUE,UNIQUE,Pass
+svminputcmsspread,date,UNIQUE,UNIQUE,Pass
+svminputcmsspread,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+svminputcmsspread,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcmsspreaddata,expiry,UNIQUE,UNIQUE,Pass
+svminputcmsspreaddata,id,"FOREIGN KEY, PRIMARY KEY, UNIQUE","FOREIGN KEY, PRIMARY KEY, UNIQUE",Pass
+svminputcmsspreaddata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcmsspreaddefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputcmsspreaddefinition,instrument,UNIQUE,UNIQUE,Pass
+svminputcmsspreaddefinition,type,UNIQUE,UNIQUE,Pass
+svminputdata,expiry,UNIQUE,UNIQUE,Pass
+svminputdata,fwdtenor,UNIQUE,UNIQUE,Pass
+svminputdata,id,"FOREIGN KEY, PRIMARY KEY, UNIQUE","FOREIGN KEY, PRIMARY KEY, UNIQUE",Pass
+svminputdata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+svminputdata,tenor,UNIQUE,UNIQUE,Pass
+svminputdefinition,currency,UNIQUE,UNIQUE,Pass
+svminputdefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputdefinition,fwd,UNIQUE,UNIQUE,Pass
+svminputdefinition,key,UNIQUE,UNIQUE,Pass
+svminputdefinition,type,UNIQUE,UNIQUE,Pass
+svminputmidcrv,calculatedat,UNIQUE,UNIQUE,Pass
+svminputmidcrv,date,UNIQUE,UNIQUE,Pass
+svminputmidcrv,definitionid,UNIQUE,UNIQUE,Pass
+svminputmidcrv,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminputmidcrvdata,expiry,UNIQUE,UNIQUE,Pass
+svminputmidcrvdata,fwdtenor,UNIQUE,UNIQUE,Pass
+svminputmidcrvdata,id,"PRIMARY KEY, UNIQUE","PRIMARY KEY, UNIQUE",Pass
+svminputmidcrvdata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+svminputmidcrvdata,tenor,UNIQUE,UNIQUE,Pass
+svminputmidcrvdefinition,currency,UNIQUE,UNIQUE,Pass
+svminputmidcrvdefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputmidcrvdefinition,key,UNIQUE,UNIQUE,Pass
+svminputmidcrvdefinition,type,UNIQUE,UNIQUE,Pass
+svminputsmilerange,calculatedat,UNIQUE,UNIQUE,Pass
+svminputsmilerange,date,UNIQUE,UNIQUE,Pass
+svminputsmilerange,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+svminputsmilerange,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminputsmilerangedata,id,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+svminputsmilerangedefinition,currency,UNIQUE,UNIQUE,Pass
+svminputsmilerangedefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputvolspread,calculatedat,UNIQUE,UNIQUE,Pass
+svminputvolspread,date,UNIQUE,UNIQUE,Pass
+svminputvolspread,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+svminputvolspread,volspreadid,"PRIMARY KEY, UNIQUE","PRIMARY KEY, UNIQUE",Pass
+svminputvolspreaddefinition,currency,UNIQUE,UNIQUE,Pass
+svminputvolspreaddefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
+svminputvolspreaddefinition,expiry,UNIQUE,UNIQUE,Pass
+svminputvolspreaddefinition,fwdtenor,UNIQUE,UNIQUE,Pass
+svminputvolspreaddefinition,key,UNIQUE,UNIQUE,Pass
+svminputvolspreaddefinition,tenor,UNIQUE,UNIQUE,Pass
+svminputvolspreaddefinition,type,UNIQUE,UNIQUE,Pass
+svminstgroup,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminstgroup,name,UNIQUE,UNIQUE,Pass
+svminstrument,id,PRIMARY KEY,PRIMARY KEY,Pass
+svminstrument,name,UNIQUE,UNIQUE,Pass
+svminstrumentstogroups,svminstgroupid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+svminstrumentstogroups,svminstrumentid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+tickergclibor,ticker,PRIMARY KEY,PRIMARY KEY,Pass
+tradedefinition,bhid,"PRIMARY KEY, UNIQUE","PRIMARY KEY, UNIQUE",Pass
+traderprefgroup,id,PRIMARY KEY,PRIMARY KEY,Pass
+traderprefgroup,name,UNIQUE,UNIQUE,Pass
+traderprefgroup,preferenceprofilegroupid,FOREIGN KEY,FOREIGN KEY,Pass
+traderprefgroupriskmap,riskfor,"PRIMARY KEY, UNIQUE","PRIMARY KEY, UNIQUE",Pass
+traderprefgroupriskmap,traderprefgroupid,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+wedgespread,calculatedat,UNIQUE,UNIQUE,Pass
+wedgespread,date,UNIQUE,UNIQUE,Pass
+wedgespread,definitionid,"FOREIGN KEY, UNIQUE","FOREIGN KEY, UNIQUE",Pass
+wedgespread,id,PRIMARY KEY,PRIMARY KEY,Pass
+wedgespreaddata,id,"FOREIGN KEY, PRIMARY KEY","FOREIGN KEY, PRIMARY KEY",Pass
+wedgespreaddata,sequence,PRIMARY KEY,PRIMARY KEY,Pass
+wedgespreaddefinition,currency,UNIQUE,UNIQUE,Pass
+wedgespreaddefinition,definitionid,PRIMARY KEY,PRIMARY KEY,Pass
